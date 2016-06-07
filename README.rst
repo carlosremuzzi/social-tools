@@ -60,4 +60,7 @@ SIP Mobile (Android)
 Propuesta de arquitectura
 *************************
 
-.. image:: img/diagramaFederacionXMPP.png
+.. old link
+   image:: img/diagramaFederacionXMPP.png
+
+.. image:: https://gitlab.geo.gob.bo/agetic/herramientas-social/raw/master/img/diagramaFederacionXMPP.png
