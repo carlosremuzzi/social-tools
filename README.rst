@@ -2,6 +2,18 @@
 Herramientas Social para Agetic y Administración Publica
 ########################################################
 
+Contexto
+********
+
+El presente proyecto se desarrolla en el marco del Plan de Implementación de Software Libre y Estándares Abiertos del Estado Plurinacional de Bolivia.
+
+El objetivo especifico del proyecto es la implementación de un servicio de comunicación del Estado entre funcionarios públicos.
+Las herramientas utilizadas para este proyecto tienen que respectar los principios de software libre y de soberanía tecnológica.
+En particular se requiere que 
+
+ 
+
+
 análisis preliminar
 *******************
 
