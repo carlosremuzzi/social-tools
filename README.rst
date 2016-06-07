@@ -1,6 +1,6 @@
-########################################################
-Herramientas Social para Agetic y Administración Publica
-########################################################
+###############################################################
+Servicio de comunicación del Estado entre funcionarios públicos
+###############################################################
 
 Introducción
 ************
@@ -18,10 +18,30 @@ En particular se requiere que las soluciones utilizadas :
 * permitan la organización de usuarios en grupos
 
 
-Análisis preliminar
-*******************
+Las soluciones tienen un tiempo de implementación organizado en tres fases. La primera fase consiste en la activación de los servicios para todos los funcionarios internos de AGETIC. Es una fase de test en la cual se pone particular enfoque en las características de escalabilidad y usabilidad del servicio. 
 
-Software considerado:
+La segunda fase contempla la extensión del servicio al
+
+Instalación de soluciones existentes
+************************************
+
+Esta opción preve la instalación de servicios basados sobre dos protocolos: **Extensible Messaging and Presence Protocol**  (XMPP) y **Session Initiation Protocol** (SIP).
+
+Actualmente no se encuentran soluciones XMPP disponibles para vídeo llamadas en entorno móvil. Para poder activar un servicio de llamadas en entorno móvil se presenta la necesidad de adoptar el protocolo SIP. 
+La ventaja de esta solución es la falta de necesidad de desarrollo. 
+
+Arquitectura
+============
+
+.. image:: https://gitlab.geo.gob.bo/agetic/herramientas-social/raw/master/img/diagramaFederacionXMPP.png
+
+Desarrollo de funcionalidades para clientes XMPP 
+************************************************
+
+Esta opción preve la instalación de servicios basados sobre un único protocolo: **XMPP**.
+
+Referencias
+***********
 
 * `ring.cx <http://ring.cx>`_
 * `tox.chat <http://tox.chat>`_
@@ -73,10 +93,4 @@ SIP Mobile (Android)
 * linphone
 * casca
 
-Propuesta de arquitectura
-*************************
 
-.. old link
-   image:: img/diagramaFederacionXMPP.png
-
-.. image:: https://gitlab.geo.gob.bo/agetic/herramientas-social/raw/master/img/diagramaFederacionXMPP.png
