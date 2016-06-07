@@ -7,15 +7,15 @@ análisis preliminar
 
 software considerados:
 
-* `ring.cx <ring.cx>`_
-* `tox.chat <tox.chat>`_
-* `kontalk.org <kontalk.org>`_
-* `jitsi.org <jitsi.org>`_
-* `gajim.org <gajim.org>`_
-* `rocket.chat <rocket.chat>`_
-* `conversationsi.im <conversations.im>`_
-* `jitsi.org <jitsi.org>`_
-* `lumicall.org <lumicall.org>`_
+* `ring.cx <http://ring.cx>`_
+* `tox.chat <http://tox.chat>`_
+* `kontalk.org <http://kontalk.org>`_
+* `jitsi.org <http://jitsi.org>`_
+* `gajim.org <http://gajim.org>`_
+* `rocket.chat <http://rocket.chat>`_
+* `conversationsi.im <http://conversations.im>`_
+* `jitsi.org <http://jitsi.org>`_
+* `lumicall.org <http://lumicall.org>`_
 * `Jingle Nodes <https://code.google.com/archive/p/jinglenodes>`_
 
 Propuesta de herramientas
