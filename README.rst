@@ -2,22 +2,26 @@
 Herramientas Social para Agetic y Administración Publica
 ########################################################
 
-Contexto
-********
+Introducción
+************
 
-El presente proyecto se desarrolla en el marco del Plan de Implementación de Software Libre y Estándares Abiertos del Estado Plurinacional de Bolivia.
+El presente documento se refiere a una serie de propuestas para la implementación de un servicio de comunicación entre los funcionarios públicos del Estado Plurinacional de Bolivia.
+Las funcionalidades del servicio incluyen un sistema de chat, redes sociales, un sistema de vídeo conferencia y por ultimo una solución para llamadas de voz.  
+Las herramientas utilizadas tienen que adherir a los principios de software libre y de soberanía tecnológica.
+En particular se requiere que las soluciones utilizadas :
 
-El objetivo especifico del proyecto es la implementación de un servicio de comunicación del Estado entre funcionarios públicos.
-Las herramientas utilizadas para este proyecto tienen que respectar los principios de software libre y de soberanía tecnológica.
-En particular se requiere que 
+* implementen software libre
+* implementen estándares abiertos 
+* no sean alojadas en el exterior
+* tengan integración con LDAP
+* permitan la búsqueda de usuarios
+* permitan la organización de usuarios en grupos
 
- 
 
-
-análisis preliminar
+Análisis preliminar
 *******************
 
-software considerados:
+Software considerado:
 
 * `ring.cx <http://ring.cx>`_
 * `tox.chat <http://tox.chat>`_
