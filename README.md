@@ -45,4 +45,4 @@
 
 ## Arquitectura
 
-![diagrama](img/DiagramaFederacionXMPP.svg)
+![diagrama](img/diagramaFederacionXMPP.svg)
