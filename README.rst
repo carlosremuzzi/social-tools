@@ -8,7 +8,7 @@ Introducción
 El presente documento se refiere a una serie de propuestas para la implementación de un servicio de comunicación entre los funcionarios públicos del Estado Plurinacional de Bolivia.
 Las funcionalidades del servicio incluyen un sistema de chat, redes sociales, un sistema de vídeo conferencia y por ultimo una solución para llamadas de voz.
 Las herramientas utilizadas tienen que adherir a los principios de software libre y de soberanía tecnológica.
-En particular se requiere que las soluciones utilizadas :
+En particular se requiere que las soluciones utilizadas:
 
 * implementen software libre
 * implementen estándares abiertos
@@ -17,14 +17,12 @@ En particular se requiere que las soluciones utilizadas :
 * permitan la búsqueda de usuarios
 * permitan la organización de usuarios en grupos
 
-
 Las soluciones tienen un tiempo de implementación organizado en tres fases. La primera fase consiste en la activación de los servicios para los funcionarios internos de AGETIC. Es una fase de test en la cual se pone particular enfoque en las características de escalabilidad y usabilidad del servicio.
 
 La segunda fase contempla la extensión del servicio al conjunto de funcionarios públicos del estado. Esta fase requiere un nivel de estabilidad, seguridad y usabilidad muy alto.
 
 La tercera fase incluye la posibilidad de abrir el servicio a la población en general. El objetivo de esta fase es de mejorar la comunicación entre funcionario publico y ciudadano.
 
-En base a un primero estudio preliminar se ha determinado
 
 
 Instalación de soluciones existentes
@@ -33,7 +31,7 @@ Instalación de soluciones existentes
 Esta opción preve la instalación de servicios basados sobre dos protocolos: **Extensible Messaging and Presence Protocol**  (XMPP) y **Session Initiation Protocol** (SIP).
 
 Actualmente no se encuentran soluciones XMPP disponibles para vídeo llamadas en entorno móvil. Para poder activar un servicio de llamadas en entorno móvil se presenta la necesidad de adoptar el protocolo SIP.
-La ventaja de esta solución es la falta de necesidad de desarrollo.
+La ventaja de esta solución es la falta de necesidad de desarrollo. La desventaja consiste en la necesidad de instalar servidores distintos para los dos protocolos. Se presenta también la posibilidad de necesitar diferentes clientes sobre todo en entorno móvil.
 
 Arquitectura
 ============
@@ -44,9 +42,13 @@ Desarrollo de funcionalidades para clientes XMPP
 ************************************************
 
 Esta opción preve la instalación de servicios basados sobre un único protocolo: **XMPP**.
+La ventaja de esta solución es la posibilidad de utilizar solo servidores XMPP. Implementando esta opción se limita también el numero de clientes.
+Una desventaja de esta opción consiste en la necesidad de implementar las funcionalidades faltantes, con los relativos tiempos y costos de desarrollo.
 
 Referencias
 ***********
+
+Se revisaron las características de las siguientes aplicaciones:
 
 * `ring.cx <http://ring.cx>`_
 * `tox.chat <http://tox.chat>`_
@@ -58,5 +60,4 @@ Referencias
 * `jitsi.org <http://jitsi.org>`_
 * `lumicall.org <http://lumicall.org>`_
 * `Jingle Nodes <https://code.google.com/archive/p/jinglenodes>`_
-
 
