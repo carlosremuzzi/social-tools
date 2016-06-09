@@ -118,6 +118,19 @@ directorio ordenado y distribuido para buscar diversa información en un entorno
 de red. LDAP también se considera una base de datos (aunque su sistema de
 almacenamiento puede ser diferente) a la que pueden realizarse consultas.
 
+Funambol
+````````
+
+Funambol es un servidor de aplicaciones para móviles que ofrece:
+- push e-mail
+- libreta de direcciones
+- sincronización de datos de calendario (PIM)
+- gestión de dispositivos
+
+aprovechando el protocolo SyncML (OMA). Para los usuarios, esto significa que las
+capacidades de empresariales de BlackBerry, estan disponibles en los teléfonos
+básicos.
+
 Instalación de soluciones existentes
 ````````````````````````````````````
 
