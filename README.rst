@@ -1,9 +1,8 @@
-###############################################################
-Servicio de comunicación del Estado entre funcionarios públicos
-###############################################################
+Servicio de comunicación del Estado
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Introducción
-************
+````````````
 
 El presente documento se refiere a una serie de propuestas para la implementación de un servicio de comunicación entre los funcionarios públicos del Estado Plurinacional de Bolivia.
 Las funcionalidades del servicio incluyen un sistema de chat, redes sociales, un sistema de vídeo conferencia y por ultimo una solución para llamadas de voz.
@@ -26,7 +25,7 @@ La tercera fase incluye la posibilidad de abrir el servicio a la población en g
 
 
 Instalación de soluciones existentes
-************************************
+````````````````````````````````````
 
 Esta opción preve la instalación de servicios basados sobre dos protocolos: **Extensible Messaging and Presence Protocol**  (XMPP) y **Session Initiation Protocol** (SIP).
 
@@ -39,16 +38,14 @@ Arquitectura
 .. image:: https://gitlab.geo.gob.bo/agetic/herramientas-social/raw/master/img/diagramaFederacionXMPP.png
 
 Desarrollo de funcionalidades para clientes XMPP
-************************************************
+````````````````````````````````````````````````
 
 Esta opción preve la instalación de servicios basados sobre un único protocolo: **XMPP**.
 La ventaja de esta solución es la posibilidad de utilizar solo servidores XMPP. Implementando esta opción se limita también el numero de clientes.
 Una desventaja de esta opción consiste en la necesidad de implementar las funcionalidades faltantes, con los relativos tiempos y costos de desarrollo.
 
-Referencias
-***********
-
-Se revisaron las características de las siguientes aplicaciones:
+Referencias y enlaces de interés
+````````````````````````````````
 
 * `ring.cx <http://ring.cx>`_
 * `tox.chat <http://tox.chat>`_
@@ -61,3 +58,6 @@ Se revisaron las características de las siguientes aplicaciones:
 * `lumicall.org <http://lumicall.org>`_
 * `Jingle Nodes <https://code.google.com/archive/p/jinglenodes>`_
 
+* https://gultsch.de/
+* libervia
+* goffi
