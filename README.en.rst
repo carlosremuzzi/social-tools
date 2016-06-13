@@ -3,10 +3,19 @@ A libre communication service for Bolivia
 
 1. Purpose of this document
 `````````````````````````````````````````
-The purpose of this document is to describe the architecture of the communication service designed for the public administrations of Bolivia.
+The purpose of this document is to describe the architecture of a communication service designed for the public administration of Bolivia.
 
 2. Introduction
 ```````````````
+
+Today’s technology is having an increasing impact on society. We are witnessing great advancement in telephony, networking, instant messaging and other communication channels. Electronic communication is transforming the way we work, the way we learn and the way we relate to each other. As a consequence, technology is also changing the way government delivers services to its people.
+
+
+importance of communication
+importance of security and privacy
+importance of technological independence
+
+Public administration is  
 
 2.1 Legislative framework
 -------------------------
@@ -19,6 +28,7 @@ The purpose of this document is to describe the architecture of the communicatio
 
 3.1 E-mail
 ++++++++++
+imap smtp
 description
 
 standards
@@ -31,16 +41,17 @@ human resources required
 
 3.2 Chat
 ++++++++++
-
+xmpp
 3.3 Phone calls
 +++++++++++++++
-
+xmpp sip
 3.4 Video calls
 +++++++++++++++
+xmpp sip
 
 3.5 Contact management
 ++++++++++++++++++++++
-
+ldap openid
 
 4. Requirements
 ```````````````
@@ -63,19 +74,18 @@ human resources required
 6. Deployment
 `````````````
 
-7. Bibliography
-```````````````
-
-* The state of mobile XMPP in 2016 - `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
-
 Acronyms
 ````````
++------+--------------------------------------------+
+| IMAP | Internet Message Access Protocol           |
 +------+--------------------------------------------+
 | LDAP | Lightweight Directory Access Protocol      |
 +------+--------------------------------------------+
 | PKI  | Public Key Infrastructure                  |
 +------+--------------------------------------------+
 | SIP  | Session Initiation Protocol                |
++------+--------------------------------------------+
+| SMTP | Simple Mail Transfer Protocol              |
 +------+--------------------------------------------+
 | SOA  | Service-Oriented Architecture              |
 +------+--------------------------------------------+
@@ -85,5 +95,10 @@ Acronyms
 +------+--------------------------------------------+
 | XMPP | Extensible Messaging and Presence Protocol |
 +------+--------------------------------------------+
+
+Bibliography
+```````````````
+
+* The state of mobile XMPP in 2016 - `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
 
 
