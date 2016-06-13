@@ -4,11 +4,17 @@ A libre communication service for Bolivia
 1. Purpose of this document
 `````````````````````````````````````````
 The purpose of this document is to describe the architecture of a communication service designed for the public administration of Bolivia.
+The document is structured as follows.
+Section 2 introduces the general context and analyses the legislative framework with regards to the Bolivian digital agenda.
+Section 3 examines in detail the group of services included in the architecture.
+Section 4 analyses the main requirements considered in the definition of the IT infrastructure.
+Section 5 describes the architecture of the services.
+Finally, section 6 discusses the deployment logistics and challenges.
 
 2. Introduction
 ```````````````
 
-Today’s technology is having an increasing impact on society. We are witnessing great advancement in telephony, networking, instant messaging and other communication channels. Electronic communication is transforming the way we work, the way we learn and the way we relate to each other. As a consequence, technology is also changing the way government delivers services to its people.
+Today’s technology is having an increasing impact on society. We are witnessing great advancements in telephony, networking, instant messaging and other communication channels. Electronic communication is transforming the way we work, the way we learn and the way we relate to each other. As a consequence, technology is also changing the way government delivers services to its people. 
 
 
 importance of communication
