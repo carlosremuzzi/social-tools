@@ -2,8 +2,9 @@ A libre communication service for Bolivia
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 1. Purpose of this document
-`````````````````````````````````````````
+```````````````````````````
 The purpose of this document is to describe the architecture of a communication service designed for the public administration of Bolivia.
+
 The document is structured as follows.
 Section 2 introduces the general context and analyses the legislative framework with regards to the Bolivian digital agenda.
 Section 3 examines in detail the group of services included in the architecture.
@@ -21,12 +22,12 @@ importance of communication
 importance of security and privacy
 importance of technological independence
 
-Public administration is  
+Public administration is
 
 2.1 Legislative framework
 -------------------------
 
-2.2 State of the art 
+2.2 State of the art
 --------------------
 
 3. Services
@@ -46,11 +47,13 @@ population served
 human resources required
 
 3.2 Chat
-++++++++++
+++++++++
 xmpp
+
 3.3 Phone calls
 +++++++++++++++
 xmpp sip
+
 3.4 Video calls
 +++++++++++++++
 xmpp sip
@@ -68,7 +71,7 @@ ldap openid
 4.2 Open Standards
 ------------------
 
-4.3 Non-foreign services 
+4.3 Non-foreign services
 ------------------------
 
 4.4 Integration
@@ -106,5 +109,3 @@ Bibliography
 ```````````````
 
 * The state of mobile XMPP in 2016 - `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
-
-
