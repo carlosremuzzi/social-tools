@@ -17,13 +17,6 @@ Finally, section 6 discusses the deployment logistics and challenges.
 
 Today’s technology is having an increasing impact on society. We are witnessing great advancements in telephony, networking, instant messaging and other communication channels. Electronic communication is transforming the way we work, the way we learn and the way we relate to each other. As a consequence, technology is also changing the way government delivers services to its people.
 
-
-importance of communication
-importance of security and privacy
-importance of technological independence
-
-Public administration is
-
 2.1 Legislative framework
 -------------------------
 
@@ -34,7 +27,8 @@ Public administration is
 ```````````
 
 3.1 E-mail
-++++++++++
+----------
+
 imap smtp
 description
 
@@ -47,19 +41,19 @@ population served
 human resources required
 
 3.2 Chat
-++++++++
+--------
 xmpp
 
 3.3 Phone calls
-+++++++++++++++
+---------------
 xmpp sip
 
 3.4 Video calls
-+++++++++++++++
+---------------
 xmpp sip
 
 3.5 Contact management
-++++++++++++++++++++++
+----------------------
 ldap openid
 
 4. Requirements
