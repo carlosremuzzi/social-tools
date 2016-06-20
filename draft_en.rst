@@ -107,13 +107,27 @@ The main goal of this requirement is therefore to inspire the implementation of 
 4.3 Non-foreign services
 ------------------------
 
-This requirement fulfills the guidelines dictated by the Patriotic Agenda 2025 which firmly establishes the concept of Technological Sovereignty. Nowadays we have witnessed the rise of cloud services in all of their flavours: Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructures as a Service (IaaS). These patterns display a new and exciting way of making software, but they also pose a new problem: most of these cloud services are allocated on servers outside of the state's borders and are maintained and developed by communities and enterprises that operated abroad. This pattern ends up limiting the opportunities for the national software industry and communities to thrive and grow. Furthermore, this pattern violates the concept of technological sovereignty as long as the user subscribes to foreign services.
-The solution to this problem is to deploy cloud services from within the State's borders. Thus the software industry will be able to fully adopt and develop cloud services while drastically reducing their dependency on foreign research and development.
+This requirement fulfills the guidelines dictated by the Patriotic Agenda 2025 which firmly establishes the concept of Technological Sovereignty.
+Nowadays we have witnessed the rise of cloud services in all of their flavours: Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructures as a Service (IaaS).
+These patterns display a new and exciting way of making software which certainly deserve attention.
+But they also pose a new problem: most of such cloud services are allocated on servers outside the state's borders and are maintained and developed by communities and enterprises that operated abroad.
+This pattern ends up limiting the opportunities for the national software industry and communities to thrive and grow.
+Furthermore, this pattern violates the concept of technological sovereignty as long as the user subscribes to foreign services.
+The solution to this problem is to deploy cloud services from within the State's borders. Following this requirement the software industry will be able to fully adopt and develop cloud services, and new technologies in general, while drastically reducing their dependency on foreign research and development.
 
 4.4 Integration
 ---------------
 
-The requirement on integration refers to the ability of managing contacts and directories of contacts and user profiles in the most integrated way possible. A particular focus is put on the public sector reality, where all of its members work within a highly hierarchical structure. The main goal of this requirement is to inspire communication services where the user is required a minimal effort for managing contacts. 
+The requirement on integration refers to the ability of managing contacts and directories of contacts in the most integrated way possible.
+A particular focus is put on the specific public sector reality, which is characterized by the following aspects:
+
+- a highly hierarchical structure.
+- multiple institutions.
+- constant change of personnel.
+- multiple types of communication channels
+
+One of the challenges encountered when dealing with contact management systems is that they usually give up on integrability in order to serve a specific reality, such as the public administration.  
+ The main goal of this requirement is to inspire communication services where the user is required a minimal effort for managing contacts.  
 
 5. Proposed architecture
 ````````````````````````
@@ -159,3 +173,6 @@ Bibliography
 
 * The state of mobile XMPP in 2016 - `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
 * https://fsfe.org/activities/os/def.en.html
+* http://ec.europa.eu/idabc/servlets/Docd552.pdf?id=19529
+
+
