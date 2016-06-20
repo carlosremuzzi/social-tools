@@ -1,0 +1,16 @@
+
+graph Arquitectura {
+rankdir=BT;
+node[shape=record,pad="0", overlap="true", sep="0,0",ranksep="0.1 equally" , nodesep="0", margin="0", color="blue", width=full, height=auto, fontname="Liberation Sans Narrow"];
+graph[spline=curved];
+"Directorio" -- "Compatibilidad"
+"Compatibilidad" -- "Chat"
+"Compatibilidad" -- "Vídeo"
+"Compatibilidad" -- "Conferencia"
+#"" -- ""
+#"" -- ""
+#"" -- ""
+#"" -- ""
+{ rank=same  }
+
+}
