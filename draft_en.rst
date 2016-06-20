@@ -61,12 +61,13 @@ The ability to provide decentralization through the adoption of open standards i
 3.2 Chat
 --------
 
-Instant messaging existed as a concept since the 60's. During the 90's IRC established itself as the dominating protocol. In 2000, an open source application and open standards-based protocol called Jabber was launched. The protocol was standardized under the name Extensible Messaging and Presence Protocol (XMPP). XMPP servers could act as gateways to other IM protocols, reducing the need to run multiple clients. Multi-protocol clients can use any of the popular IM protocols by using additional local libraries for each protocol. IBM Lotus Sametime's November 2007 release added IBM Lotus Sametime Gateway support for XMPP.
-  
-The open standards which are most interesting to implement chat services are currently:
+Instant messaging existed as a concept since the 60's. During the 90's IRC established itself as the dominating protocol.
+In 2000, a new open standard was proposed: the Extensible Messaging and Presence Protocol (XMPP).
+Ever since, this protocol gained more and more importance becoming one of the most valuable tools for instance messaging. Its importance relies on its extensibility together with its complete openness.
+Just like email, XMPP can run on decentralized servers. This makes it a preferred choice as a protocol for instant messaging. Another great feature is it's ability to support video and audio communications thanks to its extensions. 
 
 - XMPP : Extensible Messaging and Presence Protocol
-
+    extensions: XEP 0166 - Jingle - support for multimedia sessions
 
 3.3 Phone calls
 ---------------
