@@ -91,7 +91,8 @@ One direct consequence of the adoption of FOSS is transparency. Transparency is 
 4.2 Open Standards
 ------------------
 
-Another requirement is the adoption of open standards.According to the European Free Software Foundation an Open Standard refers to a format or protocol that is:
+Another requirement is the adoption of open standards.According to the EUROPEAN INTEROPERABILITY FRAMEWORK
+FOR PAN-EUROPEAN eGOVERNMENT SERVICES an Open Standard refers to a format or protocol that is:
 
 - subject to full public assessment and use without constraints in a manner equally available to all parties;
 - without any components or extensions that have dependencies on formats or protocols that do not meet the definition of an Open Standard themselves;
@@ -100,17 +101,19 @@ Another requirement is the adoption of open standards.According to the European 
 - available in multiple complete implementations by competing vendors, or as a complete implementation equally available to all parties.
 
 This set of rules is fundamental towards the achievement of interoperability. By a short definition we can definite interoperability as: *The ability of government organisations to share information and integrate information and business processes by use of common standards*.
+The main goal of this requirement is therefore to inspire the implementation of fully interoperable services provided by the public administration of Bolivia.
 
 
 4.3 Non-foreign services
 ------------------------
 
 This requirement fulfills the guidelines dictated by the Patriotic Agenda 2025 which firmly establishes the concept of Technological Sovereignty. Nowadays we have witnessed the rise of cloud services in all of their flavours: Software as a Service (SaaS), Platform as a Service (PaaS) and Infrastructures as a Service (IaaS). These patterns display a new and exciting way of making software, but they also pose a new problem: most of these cloud services are allocated on servers outside of the state's borders and are maintained and developed by communities and enterprises that operated abroad. This pattern ends up limiting the opportunities for the national software industry and communities to thrive and grow. Furthermore, this pattern violates the concept of technological sovereignty as long as the user subscribes to foreign services.
-The solution to this problem is to deploy cloud services from within the State's borders. This way the software industry will be able to fully adopt and develop cloud services while drastically reducing their dependency on foreign research and development.
-
+The solution to this problem is to deploy cloud services from within the State's borders. Thus the software industry will be able to fully adopt and develop cloud services while drastically reducing their dependency on foreign research and development.
 
 4.4 Integration
 ---------------
+
+The requirement on integration refers to the ability of managing contacts and directories of contacts and user profiles in the most integrated way possible. A particular focus is put on the public sector reality, where all of its members work within a highly hierarchical structure. The main goal of this requirement is to inspire communication services where the user is required a minimal effort for managing contacts. 
 
 5. Proposed architecture
 ````````````````````````
