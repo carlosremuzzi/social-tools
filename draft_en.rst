@@ -18,7 +18,14 @@ Finally, section 6 discusses the deployment logistics and challenges.
 Today’s technology is having an increasing impact on society. 
 We are witnessing great advancements in telephony, networking, instant messaging and other communication channels. 
 Electronic communication is transforming the way we work, the way we learn and the way we relate to each other. 
-As a consequence, technology is also changing the way government delivers services to its people. 
+Furthermore, technology is changing the way governments deliver services to their citizens.
+The quality and variety of services that a government is able to provide depend, among other things, on the quality of its ICT infrastructure.
+
+Because of this reason, more and more governments across the globe have been making making moves toward the improvement and expansion of their web services and communication tools.
+
+In this document, we focus on the public administration of Bolivia and the way its ICT infrastructure could be improved. 
+
+
 
 2.1 Legislative framework
 -------------------------
