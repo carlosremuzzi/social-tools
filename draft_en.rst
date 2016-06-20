@@ -30,8 +30,8 @@ Because of this reason, more and more governments across the globe have been mak
 In this document, we focus on the public administration of Bolivia and the way its ICT infrastructure could be improved. 
 
 
-2.1 Legislative framework
--------------------------
+Legislative framework
+---------------------
 
 This document finds its foundations in the decisions made within the context of the Telecommunications Act N° 164, ratified by the Supreme Decree N° 1793. The aforementioned  measures  establish a legal framework which describes the relation that needs to exist between the public administration, free software and open standards in Bolivia.
 The same principles  are established within the State's Constitution, renewed on February 2009, and the Patriotic Agenda  2025. They both establish the principles of sovereignty and, for the purpose of this document, the principle of technological sovereignty.
@@ -39,30 +39,34 @@ The same principles  are established within the State's Constitution, renewed on
 Furthermore, the Patriotic Agenda provides a list of development goals in many categories. Those goals are set to be achieved by 2025.
 Goal number 11 of the Agenda, in particular, establishes the fundamentals for the current document and many other ongoing governmental plans: *Sovereignty and transparency in public management governed by the principles of: don't steal, don't lie and don't be lazy.*
 
-
-2.2 State of the art
---------------------
-
 3. Services
 ```````````
+
+In this section we describe the group of services which are included in the new communication service for the public administration of Bolivia. A particular focus is dedicated to the standards and protocols to be adopted by each service, the type and magnitude of the population served, the technology replaced and finally the human resources required. 
 
 3.1 E-mail
 ----------
 
-imap smtp
-description
+E-mail systems have been around since the 60's and they have now grown to become the standard and most trusted messaging tool over the internet. Thanks to cryptography and the rise of public key infrastructures (PKIs), email messages have now reached the status of legal documents in many countries, including Bolivia.
+An important feature of the Email, is its decentralized architecture. Decentralization in this context means the following: when we sign up for an e-mail service with a certain provider, we are still able to exchange e-mail messages with users from different providers.
+This level of decentralization was achieved thanks to the adoption of open standards. The standards adopted by email services are the following:
 
-standards
+- SMTP : Simple Mail Transfer Protocol.
+   Used by servers both to send and receive messages. Used by clients only to send messages. 
+- IMAP : Internet Message Access Protocol.
+   Used by servers and clients to retrieve email. 
 
-replaced technology
-
-population served
-
-human resources required
+The ability to provide decentralization through the adoption of open standards is considered a fundamental feature for any solution proposed in this document. 
 
 3.2 Chat
 --------
-xmpp
+
+Instant messaging existed as a concept since the 60's. 
+The open standards which are most interesting to implement chat services are currently:
+
+- XMPP : Extensible Messaging and Presence Protocol
+- SIP : Session Initiation Protocol
+
 
 3.3 Phone calls
 ---------------
@@ -121,10 +125,12 @@ The solution to this problem is to deploy cloud services from within the State's
 The requirement on integration refers to the ability of managing contacts and directories of contacts in the most integrated way possible.
 A particular focus is put on the specific public sector reality, which is characterized by the following aspects:
 
-- a highly hierarchical structure.
-- multiple institutions.
-- constant change of personnel.
+
+- a highly hierarchical structure
+- multiple institutions
+- constant change of personnel
 - multiple types of communication channels
+
 
 One of the challenges encountered when dealing with contact management systems is that they usually give up on integrability in order to serve a specific reality, such as the public administration.  
  The main goal of this requirement is to inspire communication services where the user is required a minimal effort for managing contacts.  
