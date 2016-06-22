@@ -1,16 +1,17 @@
 
 graph Arquitectura {
 rankdir=BT;
-node[shape=record,pad="0", overlap="true", sep="0,0",ranksep="0.1 equally" , nodesep="0", margin="0", color="blue", width=full, height=auto, fontname="Liberation Sans Narrow"];
+spline=curved;
+ranksep = "0.02 equally";
+node[shape=record, overlap="true", color="blue", width=full, height=auto, fontname="Liberation Sans Narrow"];
 graph[spline=curved];
-"Directorio" -- "Compatibilidad"
-"Compatibilidad" -- "Chat"
-"Compatibilidad" -- "Vídeo"
-"Compatibilidad" -- "Conferencia"
+"Directorio" -- "Capa de interconección"
+"Capa de interconección" -- "Chat"
+"Capa de interconección" -- "Vídeo"
+"Capa de interconección" -- "Conferencia"
 #"" -- ""
 #"" -- ""
 #"" -- ""
 #"" -- ""
-{ rank=same  }
 
 }
