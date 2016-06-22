@@ -95,7 +95,8 @@ entre los usuarios de diferentes proveedores. Este nivel de descentralización s
 logró gracias a la adopción de estándares abiertos. Las normas adoptadas por los
 servicios de correo electrónico son los siguientes:
 
-:SMTP: Simple Mail Transfer Protocol.
+:SMTP: Protocolo Simple para Transferencia de Correo (Simple Mail Transfer
+  Protocol).
 
 
   Utilizado por los servidores tanto para enviar y recibir mensajes. Utilizado
@@ -124,7 +125,7 @@ preferida como un protocolo de mensajería instantánea. Otra gran característi
 es su capacidad para soportar comunicaciones de vídeo y audio gracias a sus
 extensiones.
 
-- XMPP: eXtensible Messaging and Presence Protocol
+:XMPP: eXtensible Messaging and Presence Protocol
 
 
     extensiones: XEP 0166 - Jingle - soporte para sesiones multimedia
@@ -311,13 +312,13 @@ contactos.
 
 5. Arquitectura propuesta
 `````````````````````````
-+------+-----------+----------------+--------------+-----------+
-| Chat | Telefonía | Vídeo llamadas | Conferencias | Contactos |
-+------+-----------+----------------+--------------+-----------+
-|                    Capa de interoperabilidad                 |
-+--------------------------------------------------------------+
-|                      Directorio Estatal                      |
-+--------------------------------------------------------------+
++------+-----------+-----------------+-----------+
+| Chat | Telefonía | Vídeo Telefonía | Contactos |
++------+-----------+-----------------+-----------+
+|            Capa de interoperabilidad           |
++------------------------------------------------+
+|                Directorio Estatal              |
++------------------------------------------------+
 
 6. Implementación
 `````````````````
