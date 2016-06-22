@@ -16,8 +16,6 @@ function makePdf {
   inputRst=$1
   outputTex=$buildFolder/$(basename "${inputRst/.rst}").tex
 
-  #expr "x$strname" : 'x[^3]*3\(.*\)r'
-
   if [[ $inputRst =~ \_([a-z][a-z])\. ]]; then
     inputLang=${BASH_REMATCH[1]}
     echo 'found language '$inputLang
