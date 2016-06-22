@@ -1,6 +1,8 @@
 A communication service for the public administration of Bolivia
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. contents::
+
 1. Purpose of this document
 ```````````````````````````
 The purpose of this document is to describe the IT architecture of a communication service designed for the public administration of Bolivia.
