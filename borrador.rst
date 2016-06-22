@@ -13,10 +13,11 @@ El documento es estructurado como sigue.
 - Sección 2, introduce al contexto general y el análisis de marco legislativo,
   concerniente a la agenda digital Boliviana.
 
-- Sección 3, examina en detalle el grupo de servicios incluidos en la arquitectura.
+- Sección 3, examina en detalle el grupo de servicios incluidos en la
+  arquitectura.
 
-- Sección 4, analiza los requerimientos principales considerados en la definición
-  de la infraestructura de tecnologías.
+- Sección 4, analiza los requerimientos principales considerados en la
+  definición de la infraestructura de tecnologías.
 
 - Sección 5, describe la arquitectura de los servicios.
 
@@ -25,16 +26,14 @@ El documento es estructurado como sigue.
 2. Introducción
 ```````````````
 
-Actualmente las tecnologías tienen un impacto creciente en la sociedad.
-
-Somos testigos de grandes avances en telefonía, redes, mensajería instantánea, y
-otros canales de comunicación.
+Actualmente las tecnologías tienen un impacto creciente en la sociedad. Somos
+testigos de grandes avances en telefonía, redes, mensajería instantánea, y otros
+canales de comunicación.
 
 La comunicación por medios electrónicos esta transformando la manera en que
-trabajamos, el modo en que aprendemos y que nos relacionamos.
-
-Por otra parte, la tecnología está cambiando la forma en que los gobiernos
-prestan servicios a sus ciudadanos.
+trabajamos, el modo en que aprendemos y que nos relacionamos. Por otra parte, la
+tecnología está cambiando la forma en que los gobiernos prestan servicios a sus
+ciudadanos.
 
 La calidad y variedad de dichos servicios, dependen, entre otras cosas; en la
 calidad de su infraestructura.
@@ -85,15 +84,15 @@ tecnología reemplazado y, finalmente, los recursos humanos necesarios.
 Los sistemas de correo electrónico han existido desde la década de los 60 y
 ahora se han convertido en la herramienta de mensajería estándar y de mayor
 confianza en internet. Gracias a la criptografía y el ascenso de las
-infraestructuras de clave pública (PKI), los mensajes de correo electrónico ahora
-han alcanzado el estado de los documentos legales en muchos países, entre ellos
-Bolivia. Una característica importante del correo electrónico, es su arquitectura
-descentralizada. La descentralización en este contexto significa lo siguiente:
-cuando suscribirse a un servicio de correo electrónico con un determinado
-proveedor, todavía somos capaces de intercambiar mensajes de correo electrónico
-entre los usuarios de diferentes proveedores. Este nivel de descentralización se
-logró gracias a la adopción de estándares abiertos. Las normas adoptadas por los
-servicios de correo electrónico son los siguientes:
+infraestructuras de clave pública (PKI), los mensajes de correo electrónico
+ahora han alcanzado el estado de los documentos legales en muchos países, entre
+ellos Bolivia. Una característica importante del correo electrónico, es su
+arquitectura descentralizada. La descentralización en este contexto significa lo
+siguiente: cuando suscribirse a un servicio de correo electrónico con un
+determinado proveedor, todavía somos capaces de intercambiar mensajes de correo
+electrónico entre los usuarios de diferentes proveedores. Este nivel de
+descentralización se logró gracias a la adopción de estándares abiertos. Las
+normas adoptadas por los servicios de correo electrónico son los siguientes:
 
 :SMTP: Protocolo Simple para Transferencia de Correo (Simple Mail Transfer
   Protocol).
@@ -187,27 +186,10 @@ Elastix.
 En el contexto de las redes, existe el capital social, en el que la gente tiene
 una ventaja debido a su ubicación en una red. Contactos en una red proporcionan
 información, oportunidades y perspectivas que pueden ser beneficiosos para el
-participante central en la red. La mayoría de las estructuras sociales tienden a
+participante en la red. La mayoría de las estructuras sociales tienden a
 caracterizarse por densos racimos de conexiones fuertes. La información dentro
 de estos grupos tiende a ser bastante homogénea y redundante. La información no
-redundante es más a menudo obtiene a través de contactos en diferentes grupos.
-Cuando dos grupos separados poseen información no redundante, no se dice que es
-un agujero estructural entre ellos. Por lo tanto, una red que sirve de puente
-agujeros estructurales se proporcionar beneficios de la red que se encuentran en
-algún aditivo grado, en lugar de la superposición. Una estructura de red ideal
-tiene una estructura de la vid y el clúster, que proporciona acceso a muchos
-grupos diferentes y los agujeros estructurales.
-
-Redes ricas en agujeros estructurales son una forma de capital social en la que
-ofrecen beneficios de información. El actor principal en una red que sirve de
-puente agujeros estructurales es capaz de acceder a información de diversas
-fuentes y clusters. [48] Por ejemplo, en las redes de empresas, esto es
-beneficioso para la carrera de una persona debido a que es más probable que
-escuche de ofertas de trabajo y oportunidades si su red abarca una amplia gama
-de contactos en diferentes industrias / sectores. Este concepto es similar a la
-teoría de Mark Granovetter de vínculos débiles, que descansa sobre la base de
-que tener una amplia gama de contactos es más eficaz para la realización del
-trabajo.
+redundante, se obtiene, a menudo; a través de contactos en diferentes grupos.
 
 4. Requerimientos
 `````````````````
@@ -359,6 +341,7 @@ acrónimos
 Bibliografía
 ````````````
 
-* The state of mobile XMPP in 2016 - `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
+* The state of mobile XMPP in 2016 -
+  `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
 * https://fsfe.org/activities/os/def.en.html
 * http://ec.europa.eu/idabc/servlets/Docd552.pdf?id=19529
