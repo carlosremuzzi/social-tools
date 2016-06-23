@@ -60,10 +60,14 @@ This level of decentralization was achieved thanks to the adoption of open stand
 
 The ability to provide decentralization through the adoption of open standards is considered a fundamental feature for any solution proposed in this document. 
 
-3.2 Chat
---------
+3.2 Instant Messaging
+---------------------
 
-Instant messaging existed as a concept since the 60's. During the 90's IRC established itself as the dominating protocol.
+Instant messaging existed as a concept since the 60's.
+It allows sending and receiving messages in real time independent of locale.
+The primary difference between instant messaging and email is that instant messaging is intended for immediate end-user delivery.
+Presence is the availability (available, busy, offline etc.) of an individual to send or receive such messages. 
+During the 90's IRC established itself as the dominating protocol.
 In 2000, a new open standard was proposed: the Extensible Messaging and Presence Protocol (XMPP).
 Ever since, this protocol gained more and more importance becoming one of the most valuable tools for instance messaging. Its importance relies on its extensibility together with its complete openness.
 Just like email, XMPP can run on decentralized servers. This makes it a preferred choice as a protocol for instant messaging. Another great feature is it's ability to support video and audio communications thanks to its extensions. 
@@ -73,11 +77,24 @@ Just like email, XMPP can run on decentralized servers. This makes it a preferre
 
 3.3 Phone calls
 ---------------
-xmpp sip
+
+The Session Initiation Protocol (SIP) is a communications protocol for signaling and controlling multimedia communication sessions.
+The most common applications of SIP are in Internet telephony for voice and video calls, as well as instant messaging, over Internet Protocol (IP) networks.
+
+The protocol defines the messages that are sent between endpoints, which govern establishment, termination and other essential elements of a call. SIP can be used for creating, modifying and terminating sessions consisting of one or several media streams. SIP is an application layer protocol designed to be independent of the underlying transport layer. It is a text-based protocol, incorporating many elements of the Hypertext Transfer Protocol (HTTP) and the Simple Mail Transfer Protocol (SMTP).
+
+SIP works in conjunction with several other application layer protocols that identify and carry the session media. Media identification and negotiation is achieved with the Session Description Protocol (SDP). For the transmission of media streams (voice, video) SIP typically employs the Real-time Transport Protocol (RTP) or Secure Real-time Transport Protocol (SRTP). For secure transmissions of SIP messages, the protocol may be encrypted with Transport Layer Security (TLS).
 
 3.4 Video calls
 ---------------
-xmpp sip
+
+Videotelephony comprises the technologies for the reception and transmission of audio-video signals by users at different locations, for communication between people in real-time.
+
+At the dawn of the technology, videotelephony also included image phones which would exchange still images between units every few seconds over conventional POTS-type telephone lines, essentially the same as slow scan TV systems.
+
+Currently videotelephony usage has made significant inroads in government, healthcare, education and the news media. It is particularly useful to the deaf and speech-impaired who can use the technology with sign language and also with a video relay service, and well as to those with mobility issues or those who are located in distant places and are in need of telemedical or tele-educational services. It is also used in commercial and corporate settings to facilitate meetings and conferences, typically between parties that already have established relationships. Like all long distance communications technologies (such as phone and internet), by reducing the need to travel to bring people together the technology also contributes to reductions in carbon emissions, thereby helping to reduce global warming.
+
+All of the mentioned functionalities can be achieved through the SIP protocol. A simple and productive tool for the installation and administration of this service could be Elastix.
 
 3.5 Contact management
 ----------------------
