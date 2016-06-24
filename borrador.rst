@@ -449,5 +449,13 @@ Bibliografía
 
 * The state of mobile XMPP in 2016 -
   `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
-* https://fsfe.org/activities/os/def.en.html
-* http://ec.europa.eu/idabc/servlets/Docd552.pdf?id=19529
+* Open Standards - Free Software Foundation Europe - https://fsfe.org/activities/os/def.en.html
+* EUROPEAN INTEROPERABILITY FRAMEWORK FOR PAN-EUROPEAN eGOVERNMENT SERVICES - http://ec.europa.eu/idabc/servlets/Docd552.pdf?id=19529
+* Promising XMPP Based Applications for Military and Defense Systems - IEEE 37th Annual Computer Software and Applications Conference  - 2013 
+* Chatty Things - Making the Internet of Things Readily Usable for the Masses with XMPP - 8th International Conference Conference on Collaborative Computing: Networking, Applications and Worksharing - 2012
+* PLAN DE GOBIERNO ELECTRÓNICO 2016 – 2025 - Comité Plurinacional de Tecnologías de la Información y Comunicación - 2016
+* PLAN DE IMPLEMENTACIÓN DE SOFTWARE LIBRE Y ESTÁNDARES ABIERTOS- Comité Plurinacional de Tecnologías de la Información y Comunicación - 2016
+* Research on E-government Information Service Mechanism Based on Unified Communication Technology - Weihua 2015
+* XMPP - https://en.wikipedia.org/wiki/XMPP
+* SIP - https://en.wikipedia.org/wiki/SIP
+* Instant Messaging - https://en.wikipedia.org/wiki/Instant_messaging
