@@ -295,6 +295,35 @@ contactos.
 5. Arquitectura propuesta
 `````````````````````````
 
+5.1 Introducción
+----------------
+
+Para poder manejar las diferentes entidades de manera descentralizada pero con
+total interoperabilidad, se requiere tener una Arquitectura orientada a
+servicios y contemplar los casos donde las entidades más pequeñas, preferirán
+utilizar la infraestructura de las entidades más grandes. Para mantener sus
+datos siempre disponibles.
+
+
+5.2 Arquitectura orientada a Servicios
+--------------------------------------
+
+La Arquitectura Orientada a Servicios SOA, del inglés Service Oriented
+Architecture. Es un paradigma de arquitectura para diseñar y desarrollar
+sistemas distribuidos. Las soluciones  SOA  han sido creadas para satisfacer los
+objetivos de facilidad y flexibilidad de integración con sistemas legados,
+alineación directa a los procesos de negocio reduciendo costos de implementación
+, innovación de servicios a clientes y una adaptación ágil ante cambios
+incluyendo reacción temprana.
+
+Permite la creación de sistemas de información altamente escalables que reflejan
+el funcionamiento interno de la organización, a su vez brinda una forma bien
+definida de exposición e invocación de servicios (comúnmente pero no
+exclusivamente servicios web), lo cual facilita la interacción entre diferentes
+sistemas propios o de terceros.
+
+5.3 Diagrama de Servicios
+-------------------------
 
 +------+-----------+-----------------+-----------+
 | Chat | Telefonía | Vídeo Telefonía | Contactos |
