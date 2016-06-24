@@ -140,11 +140,13 @@ One of the challenges encountered when dealing with contact management systems i
 
 5. Proposed architecture
 ````````````````````````
-+------+-------------+-------------+-------------+----------+
-| Chat | Phone Calls | Video Calls | Conferences | Contacts |
-+------+-------------+-------------+-------------+----------+
-| Directory                                                 |
-+-----------------------------------------------------------+
++------+-------------+-------------+----------+
+| Chat | Phone Calls | Video Calls | Contacts |
++------+-------------+-------------+----------+
+|             Interoperability layer          |
++---------------------------------------------+
+|                   Directory                 |
++---------------------------------------------+
 
 6. Deployment
 `````````````

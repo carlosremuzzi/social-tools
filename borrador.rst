@@ -294,6 +294,8 @@ contactos.
 
 5. Arquitectura propuesta
 `````````````````````````
+
+
 +------+-----------+-----------------+-----------+
 | Chat | Telefonía | Vídeo Telefonía | Contactos |
 +------+-----------+-----------------+-----------+
@@ -304,6 +306,29 @@ contactos.
 
 6. Implementación
 `````````````````
+
+6.1 Directorio Estatal
+----------------------
+
+6.2 Interoperabilidad
+---------------------
+
+6.3 Servicios
+-------------
+
+6.3.1 Contactos
+~~~~~~~~~~~~~~~
+
+6.3.2 Chat
+~~~~~~~~~~
+
+6.3.3 Telefonia
+~~~~~~~~~~~~~~~
+
+6.3.4 Video Llamadas
+~~~~~~~~~~~~~~~~~~~~
+
+
 
 acrónimos
 `````````
