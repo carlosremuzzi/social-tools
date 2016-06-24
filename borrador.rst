@@ -310,8 +310,34 @@ contactos.
 6.1 Directorio Estatal
 ----------------------
 
+Para tener un directorio estatal, se debe considerar que la información que se
+manejara, cambia constantemente, y se debe contemplar personal para la
+actualización continua de esta, fuera del personal técnico, para el
+mantenimiento del servicio.
+
+Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
+
+:LDAP: Protocolo Ligero/Simplificado de Acceso a Directorios, de sus siglas en
+       ingles Lightweight Directory Access Protocol; es un protocolo a nivel de
+       aplicación que permite el acceso a un servicio de directorio ordenado y
+       distribuido para buscar diversa información en un entorno de red. LDAP
+       también se considera una base de datos (aunque su sistema de
+       almacenamiento puede ser diferente) a la que pueden realizarse consultas.
+
+
+:Base de Datos: También es posible utilizar una base de datos, tanto relacional
+                como no relacional, para mantener la información del directorio,
+                pero es necesario tener una capa de autentificación como
+                servicio, para la federación del directorio.
+
 6.2 Interoperabilidad
 ---------------------
+
+Para poder federar el directorio, se necesita un servicio de identificación,
+para este fin podemos utilizar OpenID, que es un estándar de identificación
+digital descentralizado, con el que un usuario puede identificarse en una
+página web a través de una URL (o un XRI en la versión actual) y puede ser
+verificado por cualquier servidor que soporte el protocolo.
 
 6.3 Servicios
 -------------
@@ -319,18 +345,29 @@ contactos.
 6.3.1 Contactos
 ~~~~~~~~~~~~~~~
 
+Para la gestión de contactos, utilizaremos Funanbol, que es un servidor de
+aplicaciones móviles, que proporciona push email, libreta de direcciones
+(agenda) y calendario (PIM), sincronización de datos, provisión de aplicaciones
+y Device Management para dispositivos móviles y PC, utilizando protocolos
+estándar como SyncML. Para los usuarios, esto implica funcionalidades semejantes
+a las de BlackBerry en otros dispositivos de mano como teléfonos móviles.
+
+Esta herramienta requiere un proceso de instalación extenso y poco
+mantenimiento, por tanto el personal para este, no necesariamente debe ser
+especializado
+
 6.3.2 Chat
 ~~~~~~~~~~
 
-6.3.3 Telefonia
+6.3.3 Telefonía
 ~~~~~~~~~~~~~~~
 
-6.3.4 Video Llamadas
+6.3.4 Vídeo Llamadas
 ~~~~~~~~~~~~~~~~~~~~
 
 
 
-acrónimos
+Acrónimos
 `````````
 
 +------+--------------------------------------------+
