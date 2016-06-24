@@ -98,8 +98,12 @@ All of the mentioned functionalities can be achieved through the SIP protocol. A
 
 3.5 Contact management
 ----------------------
-ldap openid
 
+Networking comes with a social asset where people benefits from their position within the net.
+Contacts in a network provide information, opportunities and perspectives which are ultimately  beneficiary to the partaker.
+The majority of the social structures have the tendency of being characterized by dense clusters of strong relations.
+The information withing those groups have the tendency of being homogeneous and redundant.
+ 
 4. Requirements
 ```````````````
 
@@ -167,6 +171,8 @@ One of the challenges encountered when dealing with contact management systems i
 
 6. Deployment
 `````````````
+
+
 
 Acronyms
 ````````
