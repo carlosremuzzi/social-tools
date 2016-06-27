@@ -148,9 +148,9 @@ solución propuesta en este documento.
 --------
 
 La mensajería instantánea existía como concepto desde los años 60. Durante la
-década del 90, IRC se a establecido como el protocolo dominante. En el 2000, se
+década del 90, IRC se ha establecido como el protocolo dominante. En el 2000, se
 propuso un nuevo estándar, abierto: Protocolo extensible de mensajería y
-presencia (XMPP su sigla en ingles). Desde entonces, este protocolo a ganado
+presencia (XMPP su sigla en ingles). Desde entonces, este protocolo ha ganado
 cada vez más importancia convirtiéndose en una de las herramientas más valiosas
 para la mensajería instancia. Su importancia se basa en su extensibilidad junto
 con su completa apertura. Al igual que el correo electrónico, XMPP puede
