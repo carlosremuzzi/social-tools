@@ -3,6 +3,41 @@ Servicio de Comunicación Libre para Bolivia
 
 .. contents::
 
+
+Acrónimos
+`````````
+
++------+--------------------------------------------+
+| FOSS | Free and Open Source  Software             |
++------+--------------------------------------------+
+| IaaS | Infrastructure as a Service                |
++------+--------------------------------------------+
+| IMAP | Internet Message Access Protocol           |
++------+--------------------------------------------+
+| LDAP | Lightweight Directory Access Protocol      |
++------+--------------------------------------------+
+| OSS  | Open Source  Software                      |
++------+--------------------------------------------+
+| PaaS | Platform as a Service                      |
++------+--------------------------------------------+
+| PKI  | Public Key Infrastructure                  |
++------+--------------------------------------------+
+| SIP  | Session Initiation Protocol                |
++------+--------------------------------------------+
+| SMTP | Simple Mail Transfer Protocol              |
++------+--------------------------------------------+
+| SaaS | Software as a Service                      |
++------+--------------------------------------------+
+| SOA  | Service-Oriented Architecture              |
++------+--------------------------------------------+
+| XEP  | XMPP Extension Protocol                    |
++------+--------------------------------------------+
+| XML  | Extensible Markup Language                 |
++------+--------------------------------------------+
+| XMPP | Extensible Messaging and Presence Protocol |
++------+--------------------------------------------+
+
+
 1. Propósito de este documento
 ``````````````````````````````
 El propósito de este documento es describir la arquitectura de un servicio de
@@ -410,39 +445,6 @@ Elastix esta basado sobre Asterisk y es distribuido bajo licencia GPL e implemen
 
 Para la implementación de servicios de vídeo llamadas no es necesario instalar ulteriores servidores, asumiendo la existencia en función de los servicios XMPP o SIP. Ambos protocolos permiten la distribución de servicios de comunicación audio/video. El factor determinante para la implementación de estos servicios es la disponibilidad de aplicaciones cliente. Existen actualmente  una gran variedad de clientes para plataformas de escritorio ( Linux, Mac, Windows). Existen aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no existen actualmente distribuciones estables que permitan la realización de  vídeo llamadas basadas sobre XMPP.  
 
-
-Acrónimos
-`````````
-
-+------+--------------------------------------------+
-| FOSS | Free and Open Source  Software             |
-+------+--------------------------------------------+
-| IaaS | Infrastructure as a Service                |
-+------+--------------------------------------------+
-| IMAP | Internet Message Access Protocol           |
-+------+--------------------------------------------+
-| LDAP | Lightweight Directory Access Protocol      |
-+------+--------------------------------------------+
-| OSS  | Open Source  Software                      |
-+------+--------------------------------------------+
-| PaaS | Platform as a Service                      |
-+------+--------------------------------------------+
-| PKI  | Public Key Infrastructure                  |
-+------+--------------------------------------------+
-| SIP  | Session Initiation Protocol                |
-+------+--------------------------------------------+
-| SMTP | Simple Mail Transfer Protocol              |
-+------+--------------------------------------------+
-| SaaS | Software as a Service                      |
-+------+--------------------------------------------+
-| SOA  | Service-Oriented Architecture              |
-+------+--------------------------------------------+
-| XEP  | XMPP Extension Protocol                    |
-+------+--------------------------------------------+
-| XML  | Extensible Markup Language                 |
-+------+--------------------------------------------+
-| XMPP | Extensible Messaging and Presence Protocol |
-+------+--------------------------------------------+
 
 Bibliografía
 ````````````
