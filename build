@@ -48,7 +48,6 @@ fi
 
 if [ -d "$buildFolder" ]; then
   cd "$buildFolder"
-  pwd
   for i in ${filenameList[@]};do
     makePdf $i
   done
