@@ -40,8 +40,7 @@ Acrónimos
 
 1. Propósito de este documento
 ``````````````````````````````
-El propósito de este documento es describir la arquitectura de un servicio de
-comunicación, diseñado para la administración pública de Bolivia.
+El propósito de este documento es describir la arquitectura de un servicio de comunicación, diseñado para la administración pública de Bolivia.
 
 El documento es estructurado como sigue.
 
@@ -84,7 +83,7 @@ podría ser mejorada.
 2.1 Marco Legal
 ---------------
 
-En este documento se encuentra sus fundamentos en las decisiones tomadas en el
+Este documento encuentra sus fundamentos en las decisiones tomadas en el
 marco de la Ley de Telecomunicaciones 164, ratificado por el Decreto Supremo
 1793. Las medidas antes mencionadas establecen un marco legal que describe la
 relación que debe existir entre la administración pública, software libre y
@@ -123,7 +122,7 @@ infraestructuras de clave pública (PKI), los mensajes de correo electrónico
 ahora han alcanzado el estado de los documentos legales en muchos países, entre
 ellos Bolivia. Una característica importante del correo electrónico, es su
 arquitectura descentralizada. La descentralización en este contexto significa lo
-siguiente: cuando suscribirse a un servicio de correo electrónico con un
+siguiente: cuando nos suscribimos a un servicio de correo electrónico con un
 determinado proveedor, todavía somos capaces de intercambiar mensajes de correo
 electrónico entre los usuarios de diferentes proveedores. Este nivel de
 descentralización se logró gracias a la adopción de estándares abiertos. Las
@@ -152,7 +151,7 @@ década del 90, IRC se ha establecido como el protocolo dominante. En el 2000, s
 propuso un nuevo estándar, abierto: Protocolo extensible de mensajería y
 presencia (XMPP su sigla en ingles). Desde entonces, este protocolo ha ganado
 cada vez más importancia convirtiéndose en una de las herramientas más valiosas
-para la mensajería instancia. Su importancia se basa en su extensibilidad junto
+para la mensajería instantánea. Su importancia se basa en su extensibilidad junto
 con su completa apertura. Al igual que el correo electrónico, XMPP puede
 ejecutarse en servidores descentralizados. Esto hace que sea una opción
 preferida como un protocolo de mensajería instantánea. Otra gran característica
