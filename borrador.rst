@@ -412,19 +412,8 @@ verificado por cualquier servidor que soporte el protocolo.
 6.3 Servicios
 -------------
 
-6.3.1 Contactos
-~~~~~~~~~~~~~~~
-
-Para la gestión de contactos, utilizaremos Funanbol, que es un servidor de
-aplicaciones móviles, que proporciona push email, libreta de direcciones
-(agenda) y calendario (PIM), sincronización de datos, provisión de aplicaciones
-y Device Management para dispositivos móviles y PC, utilizando protocolos
-estándar como SyncML. Para los usuarios, esto implica funcionalidades semejantes
-a las de BlackBerry en otros dispositivos de mano como teléfonos móviles.
-
-Esta herramienta requiere un proceso de instalación extenso y poco
-mantenimiento, por tanto el personal para este, no necesariamente debe ser
-especializado
+6.3.1 Correo Electrónico
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 6.3.2 Chat
 ~~~~~~~~~~
@@ -438,18 +427,32 @@ Ejabberd también puede comunicar con otros servidor XMPP lo cual permite la imp
   
 El personal requerido para esta herramienta no debe necesariamente especializado ya que se necesitan mínimos esfuerzos de instalación y mantenimiento.
 
-
-6.3.3 Telefonía
-~~~~~~~~~~~~~~~
+6.3.3 Llamadas Telefónicas
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para la gestión del servicio de telefonía se pueden utilizar servidores como Asterisk o Elastix los cuales son servidores para telefonía y telecomunicaciones basadas sobre protocolo SIP.
 Asterisk es distribuido bajo licencia GPL e implementa servicio de telefonía PBX ( Private Branch Exchange). Entres sus principales funcionalidades se puede mencionar: buzón de voz, conferencias, IVR y distribución automática de llamadas. Unas de las grandes ventajas  de Asterisk es su extensibilidad y la capacidad de integrar diferentes tecnologías  cuales VoiP, SIP, H.323, IAX y MGCP
 Elastix esta basado sobre Asterisk y es distribuido bajo licencia GPL e implementa también servicios de chat, fax, email y trabajo colaborativo. 
 
-6.3.4 Vídeo Llamadas
-~~~~~~~~~~~~~~~~~~~~
+6.3.4 Vídeo Telefonía
+~~~~~~~~~~~~~~~~~~~~~
 
 Para la implementación de servicios de vídeo llamadas no es necesario instalar ulteriores servidores, asumiendo la existencia en función de los servicios XMPP o SIP. Ambos protocolos permiten la distribución de servicios de comunicación audio/video. El factor determinante para la implementación de estos servicios es la disponibilidad de aplicaciones cliente. Existen actualmente  una gran variedad de clientes para plataformas de escritorio ( Linux, Mac, Windows). Existen aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no existen actualmente distribuciones estables que permitan la realización de  vídeo llamadas basadas sobre XMPP.  
+
+
+6.3.5 Gestión de Contactos
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para la gestión de contactos, utilizaremos Funanbol, que es un servidor de
+aplicaciones móviles, que proporciona push email, libreta de direcciones
+(agenda) y calendario (PIM), sincronización de datos, provisión de aplicaciones
+y Device Management para dispositivos móviles y PC, utilizando protocolos
+estándar como SyncML. Para los usuarios, esto implica funcionalidades semejantes
+a las de BlackBerry en otros dispositivos de mano como teléfonos móviles.
+
+Esta herramienta requiere un proceso de instalación extenso y poco
+mantenimiento, por tanto el personal para este, no necesariamente debe ser
+especializado
 
 
 Bibliografía
