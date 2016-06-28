@@ -309,7 +309,7 @@ drásticamente su dependencia de la investigación y el desarrollo extranjera.
 4.4 Integración
 ---------------
 
-Directorios de contactos de la manera más integrada posible.
+El requerimiento de integración se refiere a la capacidad de administrar directorios de contactos de la manera más integrada posible.
 Un enfoque particular que se pone en la realidad específica del sector público,
 que se caracteriza por los siguientes aspectos:
 
