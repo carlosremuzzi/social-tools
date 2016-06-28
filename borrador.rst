@@ -381,12 +381,13 @@ actualización continua de esta, fuera del personal técnico, para el
 mantenimiento del servicio.
 
 Para el manejo del directorio es recomendable adoptar una arquitectura lo mas 
-posible descentralizada. A este propósito se propone que cada institución  
-deba comprometerse a mantener actualizado su proprio directorio, particularmente 
-en los datos de contacto, Correo Electrónico, celular y cargo. Esto no quita la
- opción de que las instituciones que no desean tener los equipos dedicados para 
-este fin, puedan usar servicios de otra institución, pero sin delegar esta 
-obligación de mantener actualizado el directorio.
+posible federada. De acuerdo a esta arquitectura, la información esta distribuida
+sobre varios servidores administrados por las varias entidades publicas. A este
+propósito se requiere que cada institución deba comprometerse a mantener actualizado
+su proprio directorio, particularmente en los datos de contacto, Correo Electrónico
+,celular y cargo. Esto no quita la opción de que las instituciones que no desean 
+tener los equipos dedicados para este fin, puedan usar servicios de otra institución
+, pero sin delegar esta obligación de mantener actualizado el directorio.
 
 Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
 
@@ -400,7 +401,7 @@ Cómo alternativas de herramientas para este servicio, podemos pensar en utiliza
 
 :Base de Datos: También es posible utilizar una base de datos, tanto relacional
                 como no relacional, para mantener la información del directorio,
-                pero es necesario tener una capa de autentificación como
+                pero es necesario tener una capa de autenticación como
                 servicio, para la federación del directorio.
 
 6.2 Interoperabilidad
@@ -475,6 +476,18 @@ Esta herramienta requiere un proceso de instalación extenso y poco
 mantenimiento, por tanto el personal para este, no necesariamente debe ser
 especializado
 
+6.4 Tiempos
+~~~~~~~~~~~
+
+La implementación del servicio de comunicación estatal esta planificada por fases.
+En la primera fase se implementaran las soluciones como servicio interno de AGETIC.
+Esta fase es importante para realizar pruebas de usabilidad y resolver problemas de
+configuración de servidores.
+En la segunda fase se contempla la extensión de los servicios a todas las
+instituciones publicas.
+La tercera y ultima fase preve la activación de los servicios para los ciudadanos
+en general. Esto sobre todo con el objetivo de mejorar la comunicación en funcionario
+publico y población.
 
 Bibliografía
 ````````````
