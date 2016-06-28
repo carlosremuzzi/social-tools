@@ -40,7 +40,8 @@ Acrónimos
 
 1. Propósito de este documento
 ``````````````````````````````
-El propósito de este documento es describir la arquitectura de un servicio de comunicación, diseñado para la administración pública de Bolivia.
+El propósito de este documento es describir la arquitectura de un servicio de
+comunicación, diseñado para la administración pública de Bolivia.
 
 El documento es estructurado como sigue.
 
@@ -418,26 +419,45 @@ verificado por cualquier servidor que soporte el protocolo.
 6.3.2 Chat
 ~~~~~~~~~~
 
-Para la gestión del servicio de Chat se utiliza Ejabberd, lo cual es un servidor de aplicaciones XMPP.
-El servidor es distribuido bajo la licencia GPL y es cross-plataforma. 
-Ejabberd es de relativamente fácil utilizo gracias a su interfaz web de administración.
+Para la gestión del servicio de Chat se utiliza Ejabberd, lo cual es un servidor
+de aplicaciones XMPP.
+El servidor es distribuido bajo la licencia GPL y es cross-plataforma.
+Ejabberd es de relativamente fácil de utilizar, gracias a su interfaz web de
+administración.
 Puede implementar autenticación con LDAP y login via SSL/TLS, SASL y STARTTLS.
 Entre sus mejores características está la extensibilidad mediante de módulos.
-Ejabberd también puede comunicar con otros servidor XMPP lo cual permite la implementación de redes descentralizadas.
-  
-El personal requerido para esta herramienta no debe necesariamente especializado ya que se necesitan mínimos esfuerzos de instalación y mantenimiento.
+Ejabberd también puede comunicarse con otros servidores XMPP lo cual permite la
+implementación de redes descentralizadas.
+
+El personal requerido para esta herramienta no debe necesariamente especializado
+ya que se necesitan mínimos esfuerzos de instalación y mantenimiento.
 
 6.3.3 Llamadas Telefónicas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para la gestión del servicio de telefonía se pueden utilizar servidores como Asterisk o Elastix los cuales son servidores para telefonía y telecomunicaciones basadas sobre protocolo SIP.
-Asterisk es distribuido bajo licencia GPL e implementa servicio de telefonía PBX ( Private Branch Exchange). Entres sus principales funcionalidades se puede mencionar: buzón de voz, conferencias, IVR y distribución automática de llamadas. Unas de las grandes ventajas  de Asterisk es su extensibilidad y la capacidad de integrar diferentes tecnologías  cuales VoiP, SIP, H.323, IAX y MGCP
-Elastix esta basado sobre Asterisk y es distribuido bajo licencia GPL e implementa también servicios de chat, fax, email y trabajo colaborativo. 
+Para la gestión del servicio de telefonía se pueden utilizar servidores como
+Asterisk o Elastix los cuales son servidores para telefonía y telecomunicaciones
+basadas sobre protocolo SIP.
+Asterisk es distribuido bajo licencia GPL e implementa servicio de telefonía PBX
+(Private Branch Exchange). Entres sus principales funcionalidades se puede
+mencionar: buzón de voz, conferencias, IVR y distribución automática de llamadas.
+Unas de las grandes ventajas  de Asterisk es su extensibilidad y la capacidad de
+integrar diferentes tecnologías  cuales VoiP, SIP, H.323, IAX y MGCP
+Elastix esta basado sobre Asterisk y es distribuido bajo licencia GPL e
+implementa también servicios de chat, fax, email y trabajo colaborativo.
 
 6.3.4 Vídeo Telefonía
 ~~~~~~~~~~~~~~~~~~~~~
 
-Para la implementación de servicios de vídeo llamadas no es necesario instalar ulteriores servidores, asumiendo la existencia en función de los servicios XMPP o SIP. Ambos protocolos permiten la distribución de servicios de comunicación audio/video. El factor determinante para la implementación de estos servicios es la disponibilidad de aplicaciones cliente. Existen actualmente  una gran variedad de clientes para plataformas de escritorio ( Linux, Mac, Windows). Existen aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no existen actualmente distribuciones estables que permitan la realización de  vídeo llamadas basadas sobre XMPP.  
+Para la implementación de servicios de vídeo llamadas no es necesario instalar
+ulteriores servidores, asumiendo la existencia en función de los servicios XMPP
+o SIP. Ambos protocolos permiten la distribución de servicios de comunicación
+audio/video. El factor determinante para la implementación de estos servicios es
+la disponibilidad de aplicaciones cliente. Existen actualmente una gran variedad
+de clientes para plataformas de escritorio ( Linux, Mac, Windows). Existen
+aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no
+existen actualmente distribuciones estables que permitan la realización de
+vídeo llamadas basadas sobre XMPP.
 
 
 6.3.5 Gestión de Contactos
