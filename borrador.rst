@@ -381,6 +381,7 @@ sistemas propios o de terceros.
 |                Directorio Estatal              |
 +------------------------------------------------+
 
+
 6. Implementación
 `````````````````
 
@@ -392,12 +393,14 @@ manejara, cambia constantemente, y se debe contemplar personal para la
 actualización continua de esta, fuera del personal técnico, para el
 mantenimiento del servicio.
 
-Es importante hacer notar que cada institución, debe comprometerse a mantener
-actualizado este directorio, particularmente en los datos de contacto, Correo
-Electrónico, celular y cargo. Esto no quita la opción de que las instituciones
-que no desean tener los equipos dedicados para este fin, puedan usar servicios
-de otra institución, pero sin delegar esta obligación de mantener actualizado el
-directorio.
+Para el manejo del directorio es recomendable adoptar una arquitectura lo mas 
+posible federada. De acuerdo a esta arquitectura, la información esta distribuida
+sobre varios servidores administrados por las varias entidades publicas. A este
+propósito se requiere que cada institución deba comprometerse a mantener actualizado
+su proprio directorio, particularmente en los datos de contacto, Correo Electrónico
+,celular y cargo. Esto no quita la opción de que las instituciones que no desean 
+tener los equipos dedicados para este fin, puedan usar servicios de otra institución
+, pero sin delegar esta obligación de mantener actualizado el directorio.
 
 Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
 
@@ -411,7 +414,7 @@ Cómo alternativas de herramientas para este servicio, podemos pensar en utiliza
 
 :Base de Datos: También es posible utilizar una base de datos, tanto relacional
                 como no relacional, para mantener la información del directorio,
-                pero es necesario tener una capa de autentificación como
+                pero es necesario tener una capa de autenticación como
                 servicio, para la federación del directorio.
 
 6.2 Interoperabilidad
@@ -426,19 +429,8 @@ verificado por cualquier servidor que soporte el protocolo.
 6.3 Servicios
 -------------
 
-6.3.1 Contactos
-~~~~~~~~~~~~~~~
-
-Para la gestión de contactos, utilizaremos Funanbol, que es un servidor de
-aplicaciones móviles, que proporciona push email, libreta de direcciones
-(agenda) y calendario (PIM), sincronización de datos, provisión de aplicaciones
-y Device Management para dispositivos móviles y PC, utilizando protocolos
-estándar como SyncML. Para los usuarios, esto implica funcionalidades semejantes
-a las de BlackBerry en otros dispositivos de mano como teléfonos móviles.
-
-Esta herramienta requiere un proceso de instalación extenso y poco
-mantenimiento, por tanto el personal para este, no necesariamente debe ser
-especializado
+6.3.1 Correo Electrónico
+~~~~~~~~~~~~~~~~~~~~~~~~
 
 6.3.2 Chat
 ~~~~~~~~~~
@@ -456,9 +448,8 @@ implementación de redes descentralizadas.
 El personal requerido para esta herramienta no debe necesariamente especializado
 ya que se necesitan mínimos esfuerzos de instalación y mantenimiento.
 
-
-6.3.3 Telefonía
-~~~~~~~~~~~~~~~
+6.3.3 Llamadas Telefónicas
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para la gestión del servicio de telefonía se pueden utilizar servidores como
 Asterisk o Elastix los cuales son servidores para telefonía y telecomunicaciones
@@ -471,8 +462,8 @@ integrar diferentes tecnologías  cuales VoiP, SIP, H.323, IAX y MGCP
 Elastix esta basado sobre Asterisk y es distribuido bajo licencia GPL e
 implementa también servicios de chat, fax, email y trabajo colaborativo.
 
-6.3.4 Vídeo Llamadas
-~~~~~~~~~~~~~~~~~~~~
+6.3.4 Vídeo Telefonía
+~~~~~~~~~~~~~~~~~~~~~
 
 Para la implementación de servicios de vídeo llamadas no es necesario instalar
 ulteriores servidores, asumiendo la existencia en función de los servicios XMPP
@@ -515,6 +506,34 @@ característica es que sus archivos de configuración son compatibles con Sendma
 , pero por el mismo motivo tiene limitantes como Sendmail. Por ultimo Exim, que
 no quiere parecerse a Sendmail, tiene características que lo hacen muy
 interesante
+
+6.3.5 Gestión de Contactos
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para la gestión de contactos, utilizaremos Funanbol, que es un servidor de
+aplicaciones móviles, que proporciona push email, libreta de direcciones
+(agenda) y calendario (PIM), sincronización de datos, provisión de aplicaciones
+y Device Management para dispositivos móviles y PC, utilizando protocolos
+estándar como SyncML. Para los usuarios, esto implica funcionalidades semejantes
+a las de BlackBerry en otros dispositivos de mano como teléfonos móviles.
+
+Esta herramienta requiere un proceso de instalación extenso y poco
+mantenimiento, por tanto el personal para este, no necesariamente debe ser
+especializado
+
+6.4 Tiempos
+~~~~~~~~~~~
+
+La implementación del servicio de comunicación estatal esta planificada por fases.
+En la primera fase se implementaran las soluciones como servicio interno de AGETIC.
+Esta fase es importante para realizar pruebas de usabilidad y resolver problemas de
+configuración de servidores.
+En la segunda fase se contempla la extensión de los servicios a todas las
+instituciones publicas.
+La tercera y ultima fase preve la activación de los servicios para los ciudadanos
+en general. Esto sobre todo con el objetivo de mejorar la comunicación en funcionario
+publico y población.
+
 
 Bibliografía
 ````````````
