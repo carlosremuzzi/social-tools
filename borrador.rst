@@ -453,8 +453,8 @@ Para este servicio existen muchas alternativas, por ejemplo:
        muestra que aproximadamente el 54% de los servidores públicos de correo
        electrónico, corren Exim.
 
-Sendmail es una buena opción, pero con problemas de seguridad, probablemente por
-que mantiene código antiguo y una lógica también antigua. Postfix surge como una
+Sendmail es una buena opción, pero con problemas de seguridad, probablemente 
+porque mantiene código antiguo y una lógica también antigua. Postfix surge como una
 alternativa importante, principalmente por que IBM esta por detrás, y su mayor
 característica es que sus archivos de configuración son compatibles con Sendmail
 , pero por el mismo motivo tiene limitantes como Sendmail. Por ultimo Exim, que
