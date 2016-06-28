@@ -16,7 +16,7 @@ sourceDir=$PWD
 function makePdf {
 
   inputLang='es'
-  inputRst=$sourceDir/$1
+  inputRst="$sourceDir"/$1
   outputTex=$(basename "${inputRst/.rst}").tex
 
   if [[ $inputRst =~ \_([a-z][a-z])\. ]]; then
@@ -26,7 +26,7 @@ function makePdf {
 
   echo 'input: '$inputRst' output: '$outputTex
 
-  rst2xetex --template=$sourceDir/latex2e/xelatex.tex \
+  rst2xetex --template="$sourceDir"/latex2e/xelatex.tex \
             --documentclass=article \
             --documentoptions=letterpaper,11pt \
             --use-latex-docinfo \
