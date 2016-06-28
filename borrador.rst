@@ -480,14 +480,17 @@ especializado
 ~~~~~~~~~~~
 
 La implementación del servicio de comunicación estatal esta planificada por fases.
-En la primera fase se implementaran las soluciones como servicio interno de AGETIC.
-Esta fase es importante para realizar pruebas de usabilidad y resolver problemas de
-configuración de servidores.
-En la segunda fase se contempla la extensión de los servicios a todas las
-instituciones publicas.
-La tercera y ultima fase preve la activación de los servicios para los ciudadanos
-en general. Esto sobre todo con el objetivo de mejorar la comunicación en funcionario
-publico y población.
+La primera fase consiste en la activación de los servicios para los funcionarios
+internos de AGETIC. Es una fase de test en la cual se pone particular enfoque
+en las características de escalabilidad y usabilidad del servicio.
+
+La segunda fase contempla la extensión del servicio al conjunto de funcionarios
+públicos del estado. Esta fase requiere un nivel de estabilidad, seguridad y
+usabilidad muy alto.
+
+La tercera fase incluye la posibilidad de abrir el servicio a la población en
+general. El objetivo de esta fase es de mejorar la comunicación entre
+funcionario publico y ciudadano.
 
 Bibliografía
 ````````````
