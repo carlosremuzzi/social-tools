@@ -117,7 +117,7 @@ tecnología reemplazado y, finalmente, los recursos humanos necesarios.
 
 Los sistemas de correo electrónico han existido desde la década de los 60 y
 ahora se han convertido en la herramienta de mensajería estándar y de mayor
-confianza en internet. Gracias a la criptografía y el ascenso de las
+confianza en Internet. Gracias a la criptografía y el ascenso de las
 infraestructuras de clave pública (PKI), los mensajes de correo electrónico
 ahora han alcanzado el estado de los documentos legales en muchos países, entre
 ellos Bolivia. Una característica importante del correo electrónico, es su
@@ -377,6 +377,13 @@ Para tener un directorio estatal, se debe considerar que la información que se
 manejara, cambia constantemente, y se debe contemplar personal para la
 actualización continua de esta, fuera del personal técnico, para el
 mantenimiento del servicio.
+
+Es importante hacer notar que cada institución, debe comprometerse a mantener
+actualizado este directorio, particularmente en los datos de contacto, Correo
+Electrónico, celular y cargo. Esto no quita la opción de que las instituciones
+que no desean tener los equipos dedicados para este fin, puedan usar servicios
+de otra institución, pero sin delegar esta obligación de mantener actualizado el
+directorio.
 
 Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
 
