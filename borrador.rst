@@ -151,6 +151,12 @@ La capacidad de proporcionar la descentralización a través de la adopción de
 estándares abiertos se considera una característica fundamental para cualquier
 solución propuesta en este documento.
 
+Para cifrar el correo podemos usar la criptografía de clave pública, en la que
+los usuarios pueden publicar cada una clave pública que otros pueden utilizar
+para cifrar mensajes a las mismas, mientras se mantiene una clave privada
+secreta que pueden utilizar para descifrar esos mensajes o cifrar digitalmente
+y firmar los mensajes que enviar.
+
 3.2 Chat
 --------
 
@@ -322,7 +328,8 @@ drásticamente su dependencia de la investigación y el desarrollo extranjera.
 4.4 Integración
 ---------------
 
-El requerimiento de integración se refiere a la capacidad de administrar directorios de contactos de la manera más integrada posible.
+El requerimiento de integración se refiere a la capacidad de administrar
+directorios de contactos de la manera más integrada posible.
 Un enfoque particular que se pone en la realidad específica del sector público,
 que se caracteriza por los siguientes aspectos:
 
@@ -393,14 +400,15 @@ manejara, cambia constantemente, y se debe contemplar personal para la
 actualización continua de esta, fuera del personal técnico, para el
 mantenimiento del servicio.
 
-Para el manejo del directorio es recomendable adoptar una arquitectura lo mas 
+Para el manejo del directorio es recomendable adoptar una arquitectura lo mas
 posible federada. De acuerdo a esta arquitectura, la información esta distribuida
 sobre varios servidores administrados por las varias entidades publicas. A este
-propósito se requiere que cada institución deba comprometerse a mantener actualizado
-su proprio directorio, particularmente en los datos de contacto, Correo Electrónico
-,celular y cargo. Esto no quita la opción de que las instituciones que no desean 
-tener los equipos dedicados para este fin, puedan usar servicios de otra institución
-, pero sin delegar esta obligación de mantener actualizado el directorio.
+propósito se requiere que cada institución deba comprometerse a mantener
+actualizado su proprio directorio, particularmente en los datos de contacto,
+Correo Electrónico, celular y cargo. Esto no quita la opción de que las
+instituciones que no desean tener los equipos dedicados para este fin, puedan
+usar servicios de otra institución, pero sin delegar esta obligación de mantener
+actualizado el directorio.
 
 Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
 
