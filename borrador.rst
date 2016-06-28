@@ -432,6 +432,35 @@ verificado por cualquier servidor que soporte el protocolo.
 6.3.1 Correo Electrónico
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
+Para este servicio existen muchas alternativas, por ejemplo:
+
+:Sendmail: es un popular "agente de transporte de correo" (MTA - Mail Transport
+           Agent) en Internet, cuya tarea consiste en "encaminar" los mensajes
+           o correos de forma que estos lleguen a su destino. Se afirma que es
+           el más popular MTA, compatible con sistemas Unix y el responsable de
+           la mayoría de envío del correo de Internet, aunque se le critica su
+           alto número de alertas de seguridad (la mayoría de ellas parcheadas
+           a las pocas horas), además de no ser sencillo de configurar.
+:Postfix: es un servidor de correo, creado con la intención de que sea una
+          alternativa más rápida, fácil de administrar y segura al ampliamente
+          utilizado Sendmail. Anteriormente conocido como VMailer e IBM Secure
+          Mailer, fue originalmente escrito por Wietse Venema durante su
+          estancia en el Thomas J. Watson Research Center de IBM, y continúa
+          siendo desarrollado activamente.
+:Exim: (EXperimental Internet Mailer) es un agente de transporte de correo
+       (Mail Transport Agent, usualmente MTA) desarrollado por la Universidad
+       de Cambridge. En abril de 2016, un estudio realizado por E-Soft, Inc.,
+       muestra que aproximadamente el 54% de los servidores públicos de correo
+       electrónico, corren Exim.
+
+Sendmail es una buena opción, pero con problemas de seguridad, probablemente por
+que mantiene código antiguo y una lógica también antigua. Postfix surge como una
+alternativa importante, principalmente por que IBM esta por detrás, y su mayor
+característica es que sus archivos de configuración son compatibles con Sendmail
+, pero por el mismo motivo tiene limitantes como Sendmail. Por ultimo Exim, que
+no quiere parecerse a Sendmail, tiene características que lo hacen muy
+interesante
+
 6.3.2 Chat
 ~~~~~~~~~~
 
@@ -475,38 +504,6 @@ aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no
 existen actualmente distribuciones estables que permitan la realización de
 vídeo llamadas basadas sobre XMPP.
 
-6.3.4 Correo Electrónico
-~~~~~~~~~~~~~~~~~~~~~~~~
-
-Para este servicio existen muchas alternativas, por ejemplo:
-
-:Sendmail: es un popular "agente de transporte de correo" (MTA - Mail Transport
-           Agent) en Internet, cuya tarea consiste en "encaminar" los mensajes
-           o correos de forma que estos lleguen a su destino. Se afirma que es
-           el más popular MTA, compatible con sistemas Unix y el responsable de
-           la mayoría de envío del correo de Internet, aunque se le critica su
-           alto número de alertas de seguridad (la mayoría de ellas parcheadas
-           a las pocas horas), además de no ser sencillo de configurar.
-:Postfix: es un servidor de correo, creado con la intención de que sea una
-          alternativa más rápida, fácil de administrar y segura al ampliamente
-          utilizado Sendmail. Anteriormente conocido como VMailer e IBM Secure
-          Mailer, fue originalmente escrito por Wietse Venema durante su
-          estancia en el Thomas J. Watson Research Center de IBM, y continúa
-          siendo desarrollado activamente.
-:Exim: (EXperimental Internet Mailer) es un agente de transporte de correo
-       (Mail Transport Agent, usualmente MTA) desarrollado por la Universidad
-       de Cambridge. En abril de 2016, un estudio realizado por E-Soft, Inc.,
-       muestra que aproximadamente el 54% de los servidores públicos de correo
-       electrónico, corren Exim.
-
-Sendmail es una buena opción, pero con problemas de seguridad, probablemente por
-que mantiene código antiguo y una lógica también antigua. Postfix surge como una
-alternativa importante, principalmente por que IBM esta por detrás, y su mayor
-característica es que sus archivos de configuración son compatibles con Sendmail
-, pero por el mismo motivo tiene limitantes como Sendmail. Por ultimo Exim, que
-no quiere parecerse a Sendmail, tiene características que lo hacen muy
-interesante
-
 6.3.5 Gestión de Contactos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -522,7 +519,7 @@ mantenimiento, por tanto el personal para este, no necesariamente debe ser
 especializado
 
 6.4 Tiempos
-~~~~~~~~~~~
+-----------
 
 La implementación del servicio de comunicación estatal esta planificada por fases.
 La primera fase consiste en la activación de los servicios para los funcionarios
