@@ -368,6 +368,7 @@ sistemas propios o de terceros.
 |                Directorio Estatal              |
 +------------------------------------------------+
 
+
 6. Implementación
 `````````````````
 
@@ -379,12 +380,13 @@ manejara, cambia constantemente, y se debe contemplar personal para la
 actualización continua de esta, fuera del personal técnico, para el
 mantenimiento del servicio.
 
-Es importante hacer notar que cada institución, debe comprometerse a mantener
-actualizado este directorio, particularmente en los datos de contacto, Correo
-Electrónico, celular y cargo. Esto no quita la opción de que las instituciones
-que no desean tener los equipos dedicados para este fin, puedan usar servicios
-de otra institución, pero sin delegar esta obligación de mantener actualizado el
-directorio.
+Para el manejo del directorio es recomendable adoptar una arquitectura lo mas 
+posible descentralizada. A este propósito se propone que cada institución  
+deba comprometerse a mantener actualizado su proprio directorio, particularmente 
+en los datos de contacto, Correo Electrónico, celular y cargo. Esto no quita la
+ opción de que las instituciones que no desean tener los equipos dedicados para 
+este fin, puedan usar servicios de otra institución, pero sin delegar esta 
+obligación de mantener actualizado el directorio.
 
 Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
 
@@ -458,7 +460,6 @@ de clientes para plataformas de escritorio ( Linux, Mac, Windows). Existen
 aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no
 existen actualmente distribuciones estables que permitan la realización de
 vídeo llamadas basadas sobre XMPP.
-
 
 6.3.5 Gestión de Contactos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
