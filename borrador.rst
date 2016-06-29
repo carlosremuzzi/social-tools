@@ -526,7 +526,49 @@ Esta herramienta requiere un proceso de instalación extenso y poco
 mantenimiento, por tanto el personal para este, no necesariamente debe ser
 especializado
 
-6.4 Tiempos
+6.4 Aplicaciones Clientes
+-------------------------
+
+6.4.1 Correo Electrónico
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Actualmente existe una gran variedad de aplicaciones clientes para correo electrónico
+desarrolladas para entorno desktop y también para móvil.
+Para entorno desktop se recomienda Mozilla Thunderbird.
+Para entorno móvil en general todos los dispositivos smartphone vienen con clientes
+nativos pre-instalados.
+El servicio de correo electrónico viene también con un cliente web, lo cual 
+permite al usuario la consultación de correo desde cualquier navegador.
+
+6.4.2 Chat
+~~~~~~~~~~
+
+Existe una gran variedad de clientes de mensajería instantánea para entorno desktop.
+Entre los mas estables y recomendables se puede recomendar Pidgin.
+
+Para entorno móvil las opciones son mas limitadas, debido sobre todo a la amigabilidad
+de las interfaces y la estabilidad del software.
+
+Una opción estable y relativamente amigable es Conversations. Otra opcion es Xabber Dev. 
+
+6.4.3 Llamadas Telefónicas
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+Para realizar llamadas SIP desde entorno desktop existen las aplicaciones Linphone y Ekiga.
+También existe Jitsi para protocolo SIP y también XMPP.
+
+Existe también la versión Linphone para móvil. Otra solución móvil es Lumicall.  
+
+6.4.4 Vídeo Llamadas
+~~~~~~~~~~~~~~~~~~~~
+
+Para realizar vídeo llamadas SIP desde entorno desktop existen las aplicaciones Linphone y Ekiga
+anteriormente mencionadas. De la misma forma Jitsi permite la realización de vídeo llamadas
+sobre protocolo SIP y XMPP.
+
+La versión móvil de Linphone también permite vídeo llamadas. 
+
+6.5 Tiempos
 -----------
 
 La implementación del servicio de comunicación estatal esta planificada por fases.
