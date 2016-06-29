@@ -30,9 +30,13 @@ function makePdf {
             --documentclass=article \
             --documentoptions=letterpaper,11pt \
             --use-latex-docinfo \
+            --use-latex-citations \
+            --figure-citations \
             --section-subtitles \
             --smart-quotes=yes \
-            -g \
+            -r 3 \
+            --compound-enumerators \
+            --section-numbering \
             -l $inputLang \
             $inputRst \
             $outputTex
