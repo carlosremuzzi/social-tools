@@ -48,7 +48,7 @@ Las premisas para este servicio, son:
 - Cada institución es independiente.
 - Es un servicio con cifrado (La comunicación es privada).
 - Los servicios son Federados (Cada entidad es responsable de sus datos, y
-  y se relaciona con las demás de manera transparente)
+  se relaciona con las demás de manera transparente)
 
 El documento es estructurado como sigue.
 
@@ -188,7 +188,7 @@ Internet (IP).
 
 El protocolo define los mensajes que se envían entre los puntos finales, que
 rigen la creación, terminación y otros elementos esenciales de una llamada. SIP
-se puede usar para crear, modificar y terminar sesiones consiste en uno o varios
+se puede usar para crear, modificar y terminar sesiones, consta de uno o varios
 flujos de medios. SIP es un protocolo de capa de aplicación diseñado para ser
 independiente de la capa de transporte subyacente. Es un protocolo basado en
 texto, que incorpora muchos elementos del Protocolo de transferencia de
@@ -503,7 +503,7 @@ implementa también servicios de chat, fax, email y trabajo colaborativo.
 ~~~~~~~~~~~~~~~~~~~~~
 
 Para la implementación de servicios de vídeo llamadas no es necesario instalar
-ulteriores servidores, asumiendo la existencia en función de los servicios XMPP
+servidores adicionales , asumiendo la existencia en función de los servicios XMPP
 o SIP. Ambos protocolos permiten la distribución de servicios de comunicación
 audio/video. El factor determinante para la implementación de estos servicios es
 la disponibilidad de aplicaciones cliente. Existen actualmente una gran variedad
