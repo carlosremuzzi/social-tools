@@ -579,6 +579,19 @@ La tercera fase incluye la posibilidad de abrir el servicio a la población en
 general. El objetivo de esta fase es de mejorar la comunicación entre
 funcionario publico y ciudadano.
 
+6.6 Conclusiones
+----------------
+
+Dada la popularidad de los dispositivos móviles inteligentes, y el soporte de
+Internet de estos, hacen económicamente viable el uso de estas tecnologías,
+reemplazando a los sistemas tradicionales(Telefonía Fija y Celular).
+
+El mantenimiento de los centros de datos, son mas simples y menos costosos que
+de las centrales tradicionales.
+
+Por lo que en un futuro no muy lejano, estas centrales tendrán que migrar a
+tecnologías como estas.
+
 
 Bibliografía
 ````````````
