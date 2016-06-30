@@ -380,14 +380,9 @@ sistemas propios o de terceros.
 5.3 Diagrama de Servicios
 -------------------------
 
-+------+-----------+-----------------+-----------+
-| Chat | Telefonía | Vídeo Telefonía | Contactos |
-+------+-----------+-----------------+-----------+
-|            Capa de interoperabilidad           |
-+------------------------------------------------+
-|                Directorio Estatal              |
-+------------------------------------------------+
 
+.. image:: Generados/Arquitectura.png
+  :width: 80%
 
 6. Implementación
 `````````````````

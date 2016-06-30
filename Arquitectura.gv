@@ -1,17 +1,22 @@
 
-graph Arquitectura {
-rankdir=BT;
-spline=curved;
-ranksep = "0.02 equally";
-node[shape=record, overlap="true", color="blue", width=full, height=auto, fontname="Liberation Sans Narrow"];
-graph[spline=curved];
-"Directorio" -- "Capa de interconección"
-"Capa de interconección" -- "Chat"
-"Capa de interconección" -- "Vídeo"
-"Capa de interconección" -- "Conferencia"
-#"" -- ""
-#"" -- ""
-#"" -- ""
-#"" -- ""
+digraph Arquitectura {
+  rankdir=BT;
+  spline=curved;
+  ranksep = "0.3 equally";
+  node[shape=record, overlap="true", color="blue", width=full, height=auto, fontname="Liberation Sans Narrow"];
+  graph[spline=curved];
+  D [label="{Directorio|{LDAP|Base de Datos}}"];
+  I [label="{Capa de interoperabilidad|OpenID}"];
+  Correo [label="{Correo Electrónico|SMTP}"];
+  Chat [label= "{Chat|XMPP}"];
+  Vídeo [label= "{Vídeo|SIP}"];
+  Telefonía [label= "{Telefonía|SIP}"];
+  Contactos [label= "{Contactos|SyncML}"];
+  D -> I
+  I -> Correo
+  I -> Chat
+  I -> Vídeo
+  I -> Telefonía
+  I -> Contactos
 
 }
