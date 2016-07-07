@@ -35,7 +35,6 @@ Genera $nombreArchivo
 
 nombreArchivo=draft_en
 Genera $nombreArchivo
-<<<<<<< HEAD
 
 nombreArchivo=cheatsheet
 Genera $nombreArchivo
