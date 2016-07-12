@@ -45,7 +45,8 @@ comunicación, diseñado para la administración pública de Bolivia.
 
 Las premisas para este servicio, son:
 
-- Cada institución es independiente.
+- Cada institución es independiente, para la gestión de los datos de su personal
+  que se deben actualizar.
 - Es un servicio con cifrado (La comunicación es privada).
 - Los servicios son Federados (Cada entidad es responsable de sus datos, y
   se relaciona con las demás de manera transparente)
@@ -114,10 +115,10 @@ no robar, no mentir, no ser flojo.*
 ````````````
 
 En esta sección se describe el conjunto de servicios que se incluyen en el
-servicio de comunicaciones de la administración pública de Bolivia, propuesto.
-Se dedica especial atención dedicada a las normas y protocolos que serán
-adoptadas por cada servicio, el tipo y la magnitud de la población atendida, la
-tecnología reemplazado y, finalmente, los recursos humanos necesarios.
+servicio propuesto de comunicaciones de la administración pública de Bolivia.
+Se dedica especial atención a las normas y protocolos que serán adoptados por
+cada servicio, el tipo y la magnitud de la población atendida, la tecnología a
+reemplazar; y finalmente, los recursos humanos necesarios.
 
 
 3.1 Correo electrónico
