@@ -3,8 +3,42 @@ A communication service for the public administration of Bolivia
 
 .. contents::
 
+Acronyms
+````````
+
++------+--------------------------------------------+
+| FOSS | Free and Open Source  Software             |
++------+--------------------------------------------+
+| IaaS | Infrastructure as a Service                |
++------+--------------------------------------------+
+| IMAP | Internet Message Access Protocol           |
++------+--------------------------------------------+
+| LDAP | Lightweight Directory Access Protocol      |
++------+--------------------------------------------+
+| OSS  | Open Source  Software                      |
++------+--------------------------------------------+
+| PaaS | Platform as a Service                      |
++------+--------------------------------------------+
+| PKI  | Public Key Infrastructure                  |
++------+--------------------------------------------+
+| SIP  | Session Initiation Protocol                |
++------+--------------------------------------------+
+| SMTP | Simple Mail Transfer Protocol              |
++------+--------------------------------------------+
+| SaaS | Software as a Service                      |
++------+--------------------------------------------+
+| SOA  | Service-Oriented Architecture              |
++------+--------------------------------------------+
+| XEP  | XMPP Extension Protocol                    |
++------+--------------------------------------------+
+| XML  | Extensible Markup Language                 |
++------+--------------------------------------------+
+| XMPP | Extensible Messaging and Presence Protocol |
++------+--------------------------------------------+
+
 1. Purpose of this document
 ```````````````````````````
+
 The purpose of this document is to describe the IT architecture of a communication service designed for the public administration of Bolivia.
 The architecture represents an improvement of the current model, and implements the concepts of interoperability, e-governance and technological sovereignty as described within the context of the Patriotic Agenda of Bolivia.
 
@@ -172,46 +206,19 @@ One of the challenges encountered when dealing with contact management systems i
 6. Deployment
 `````````````
 
-
-
-Acronyms
-````````
-
-+------+--------------------------------------------+
-| FOSS | Free and Open Source  Software             |
-+------+--------------------------------------------+
-| IaaS | Infrastructure as a Service                |
-+------+--------------------------------------------+
-| IMAP | Internet Message Access Protocol           |
-+------+--------------------------------------------+
-| LDAP | Lightweight Directory Access Protocol      |
-+------+--------------------------------------------+
-| OSS  | Open Source  Software                      |
-+------+--------------------------------------------+
-| PaaS | Platform as a Service                      |
-+------+--------------------------------------------+
-| PKI  | Public Key Infrastructure                  |
-+------+--------------------------------------------+
-| SIP  | Session Initiation Protocol                |
-+------+--------------------------------------------+
-| SMTP | Simple Mail Transfer Protocol              |
-+------+--------------------------------------------+
-| SaaS | Software as a Service                      |
-+------+--------------------------------------------+
-| SOA  | Service-Oriented Architecture              |
-+------+--------------------------------------------+
-| XEP  | XMPP Extension Protocol                    |
-+------+--------------------------------------------+
-| XML  | Extensible Markup Language                 |
-+------+--------------------------------------------+
-| XMPP | Extensible Messaging and Presence Protocol |
-+------+--------------------------------------------+
-
 Bibliography
 ```````````````
 
-* The state of mobile XMPP in 2016 - `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
-* https://fsfe.org/activities/os/def.en.html
-* http://ec.europa.eu/idabc/servlets/Docd552.pdf?id=19529
-
-
+* The state of mobile XMPP in 2016 -
+  `https://gultsch.de/xmpp_2016.html <https://gultsch.de/xmpp_2016.html>`_
+* Open Standards - Free Software Foundation Europe - https://fsfe.org/activities/os/def.en.html
+* EUROPEAN INTEROPERABILITY FRAMEWORK FOR PAN-EUROPEAN eGOVERNMENT SERVICES - http://ec.europa.eu/idabc/servlets/Docd552.pdf?id=19529
+* Promising XMPP Based Applications for Military and Defense Systems - IEEE 37th Annual Computer Software and Applications Conference  - 2013 
+* Chatty Things - Making the Internet of Things Readily Usable for the Masses with XMPP - 8th International Conference Conference on Collaborative Computing: Networking, Applications and Worksharing - 2012
+* PLAN DE GOBIERNO ELECTRÓNICO 2016 – 2025 - Comité Plurinacional de Tecnologías de la Información y Comunicación - 2016
+* PLAN DE IMPLEMENTACIÓN DE SOFTWARE LIBRE Y ESTÁNDARES ABIERTOS- Comité Plurinacional de Tecnologías de la Información y Comunicación - 2016
+* Research on E-government Information Service Mechanism Based on Unified Communication Technology - Weihua 2015
+* XMPP - https://en.wikipedia.org/wiki/XMPP
+* SIP - https://en.wikipedia.org/wiki/SIP
+* Instant Messaging - https://en.wikipedia.org/wiki/Instant_messaging
+* EXIM USE - http://www.securityspace.com/s_survey/data/man.201603/mxsurvey.html
