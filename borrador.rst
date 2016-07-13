@@ -74,19 +74,15 @@ Introducción
 Actualmente las tecnologías tienen un impacto creciente en la sociedad. Somos
 testigos de grandes avances en telefonía, redes, mensajería instantánea, y otros
 canales de comunicación.
-
 La comunicación por medios electrónicos esta transformando la manera en que
 trabajamos, el modo en que aprendemos y que nos relacionamos. Por otra parte, la
 tecnología está cambiando la forma en que los gobiernos prestan servicios a sus
 ciudadanos.
-
-La calidad y variedad de dichos servicios, dependen, entre otras cosas; en la
+La calidad y variedad de dichos servicios, dependen, entre otras cosas, de la
 calidad de su infraestructura.
-
 Debido a esta razón, cada vez más gobiernos de todo el mundo están haciendo
 movimientos hacia la mejora y ampliación de sus servicios web y herramientas de
 comunicación.
-
 En este documento, nos centramos en la administración pública de Bolivia y la
 forma en que su infraestructura de tecnologías de información y comunicación
 podría ser mejorada.
@@ -95,8 +91,8 @@ Marco legal
 ---------------
 
 Este documento encuentra sus fundamentos en las decisiones tomadas en el
-marco de la Ley de Telecomunicaciones 164, ratificado por el Decreto Supremo
-1793. Las medidas antes mencionadas establecen un marco legal que describe la
+marco de la Ley de Telecomunicaciones 164, reglamentada por el Decreto Supremo
+1793. Este marco legal que describe la
 relación que debe existir entre la administración pública, software libre y
 los estándares abiertos en Bolivia.
 
@@ -120,7 +116,7 @@ En esta sección se describe el conjunto de servicios que se incluyen en el
 servicio propuesto de comunicaciones de la administración pública de Bolivia.
 Se dedica especial atención a las normas y protocolos que serán adoptados por
 cada servicio, el tipo y la magnitud de la población atendida, la tecnología a
-reemplazar; y finalmente, los recursos humanos necesarios.
+reemplazar, y finalmente, los recursos humanos necesarios.
 
 
 Correo electrónico
@@ -131,13 +127,13 @@ ahora se han convertido en la herramienta de mensajería estándar y de mayor
 confianza en Internet :cite:`egan2008inbox`. Gracias a la criptografía y el ascenso de las
 infraestructuras de clave pública (PKI), los mensajes de correo electrónico
 ahora han alcanzado el estado de los documentos legales en muchos países, entre
-ellos Bolivia. Una característica importante del correo electrónico, es su
+ellos Bolivia. Una característica importante del correo electrónico es su
 arquitectura descentralizada. La descentralización en este contexto significa lo
 siguiente: cuando nos suscribimos a un servicio de correo electrónico con un
 determinado proveedor, todavía somos capaces de intercambiar mensajes de correo
 electrónico entre los usuarios de diferentes proveedores. Este nivel de
 descentralización se logró gracias a la adopción de estándares abiertos. Las
-normas adoptadas por los servicios de correo electrónico son los siguientes:
+normas adoptadas por los servicios de correo electrónico son las siguientes:
 
 :SMTP: Protocolo Simple para Transferencia de Correo (Simple Mail Transfer
   Protocol).
@@ -171,7 +167,7 @@ cada vez más importancia convirtiéndose en una de las herramientas más valios
 para la mensajería instantánea. Su importancia se basa en su extensibilidad junto
 con su completa apertura. Al igual que el correo electrónico, XMPP puede
 ejecutarse en servidores descentralizados. Esto hace que sea una opción
-preferida como un protocolo de mensajería instantánea. Otra gran característica
+preferida para protocolo de mensajería instantánea. Otra gran característica
 es su capacidad para soportar comunicaciones de vídeo y audio gracias a sus
 extensiones.
 
@@ -198,7 +194,7 @@ texto, que incorpora muchos elementos del Protocolo de transferencia de
 hipertexto (HTTP) y el protocolo de transferencia de correo simple (SMTP).
 
 SIP trabaja en conjunto con varios otros protocolos de capa de aplicación que
-identifican y llevan los datos por la sesión. Identificación de los medios de
+identifican y llevan los datos por la sesión. La identificación de los medios de
 comunicación y la negociación se consigue con el Protocolo de Descripción de
 Sesión (SDP). Para la transmisión de flujos de medios (voz, vídeo) SIP
 normalmente emplea el Protocolo de transporte en tiempo real (RTP) o Protocolo
