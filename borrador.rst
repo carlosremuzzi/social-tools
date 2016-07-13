@@ -273,7 +273,7 @@ gobierno.
 Estándares abiertos
 -----------------------
 
-Otro requisito es la adopción de estándares abiertos. de acuerdo al marco
+Otro requisito es la adopción de estándares abiertos. De acuerdo al marco
 europeo de interoperabilidad para Servicios de administración electrónica
 paneuropea, un estándar abierto se refiere a un formato o protocolo que es:
 
