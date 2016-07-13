@@ -75,19 +75,15 @@ Introducción
 Actualmente las tecnologías tienen un impacto creciente en la sociedad. Somos
 testigos de grandes avances en telefonía, redes, mensajería instantánea, y otros
 canales de comunicación.
-
 La comunicación por medios electrónicos esta transformando la manera en que
 trabajamos, el modo en que aprendemos y que nos relacionamos. Por otra parte, la
 tecnología está cambiando la forma en que los gobiernos prestan servicios a sus
 ciudadanos.
-
-La calidad y variedad de dichos servicios, dependen, entre otras cosas; en la
+La calidad y variedad de dichos servicios, dependen, entre otras cosas, de la
 calidad de su infraestructura.
-
 Debido a esta razón, cada vez más gobiernos de todo el mundo están haciendo
 movimientos hacia la mejora y ampliación de sus servicios web y herramientas de
 comunicación.
-
 En este documento, nos centramos en la administración pública de Bolivia y la
 forma en que su infraestructura de tecnologías de información y comunicación
 podría ser mejorada.
@@ -96,8 +92,8 @@ Marco legal
 ---------------
 
 Este documento encuentra sus fundamentos en las decisiones tomadas en el
-marco de la Ley de Telecomunicaciones 164, ratificado por el Decreto Supremo
-1793. Las medidas antes mencionadas establecen un marco legal que describe la
+marco de la Ley de Telecomunicaciones 164, reglamentada por el Decreto Supremo
+1793. Este marco legal que describe la
 relación que debe existir entre la administración pública, software libre y
 los estándares abiertos en Bolivia.
 
@@ -121,7 +117,7 @@ En esta sección se describe el conjunto de servicios que se incluyen en el
 servicio propuesto de comunicaciones de la administración pública de Bolivia.
 Se dedica especial atención a las normas y protocolos que serán adoptados por
 cada servicio, el tipo y la magnitud de la población atendida, la tecnología a
-reemplazar; y finalmente, los recursos humanos necesarios.
+reemplazar, y finalmente, los recursos humanos necesarios.
 
 
 Correo electrónico
@@ -132,13 +128,13 @@ ahora se han convertido en la herramienta de mensajería estándar y de mayor
 confianza en Internet :cite:`egan2008inbox`. Gracias a la criptografía y el ascenso de las
 infraestructuras de clave pública (PKI), los mensajes de correo electrónico
 ahora han alcanzado el estado de los documentos legales en muchos países, entre
-ellos Bolivia. Una característica importante del correo electrónico, es su
+ellos Bolivia. Una característica importante del correo electrónico es su
 arquitectura descentralizada. La descentralización en este contexto significa lo
 siguiente: cuando nos suscribimos a un servicio de correo electrónico con un
 determinado proveedor, todavía somos capaces de intercambiar mensajes de correo
 electrónico entre los usuarios de diferentes proveedores. Este nivel de
 descentralización se logró gracias a la adopción de estándares abiertos. Las
-normas adoptadas por los servicios de correo electrónico son los siguientes:
+normas adoptadas por los servicios de correo electrónico son las siguientes:
 
 :SMTP: Protocolo Simple para Transferencia de Correo (Simple Mail Transfer
   Protocol).
@@ -172,7 +168,7 @@ cada vez más importancia convirtiéndose en una de las herramientas más valios
 para la mensajería instantánea. Su importancia se basa en su extensibilidad junto
 con su completa apertura. Al igual que el correo electrónico, XMPP puede
 ejecutarse en servidores descentralizados. Esto hace que sea una opción
-preferida como un protocolo de mensajería instantánea. Otra gran característica
+preferida para protocolo de mensajería instantánea. Otra gran característica
 es su capacidad para soportar comunicaciones de vídeo y audio gracias a sus
 extensiones.
 
@@ -199,7 +195,7 @@ texto, que incorpora muchos elementos del Protocolo de transferencia de
 hipertexto (HTTP) y el protocolo de transferencia de correo simple (SMTP).
 
 SIP trabaja en conjunto con varios otros protocolos de capa de aplicación que
-identifican y llevan los datos por la sesión. Identificación de los medios de
+identifican y llevan los datos por la sesión. La identificación de los medios de
 comunicación y la negociación se consigue con el Protocolo de Descripción de
 Sesión (SDP). Para la transmisión de flujos de medios (voz, vídeo) SIP
 normalmente emplea el Protocolo de transporte en tiempo real (RTP) o Protocolo
@@ -207,8 +203,8 @@ de transporte seguro en tiempo real (SRTP). Para las transmisiones seguras de
 mensajes SIP, el protocolo se puede cifrar, por medio de una capa de transporte
 seguro (Transport Layer Security; TLS).
 
-Si bien XMPP, tiene soporte para realizar llamadas de voz y hasta de vídeo, esta
-aun es proceso de desarrollo temprano, por tanto, requiere de correcciones y
+Si bien XMPP, tiene soporte para realizar llamadas de voz y hasta de vídeo, aun esta
+en un proceso de desarrollo, por tanto, requiere de correcciones y
 trabajo de mantenimiento, en cambio SIP esta bien establecido y soporta la
 adición de nuevas tecnologías, como codecs de audio y vídeo, por lo que podemos
 presumir que tiene aun mucha vida por delante.
@@ -216,7 +212,7 @@ presumir que tiene aun mucha vida por delante.
 Vídeo telefonía
 -------------------
 
-Vídeo telefonía comprende las tecnologías para la recepción y transmisión de
+La vídeo telefonía comprende las tecnologías para la recepción y transmisión de
 señales de audio y vídeo por los usuarios en diferentes ubicaciones, para la
 comunicación entre las personas, en tiempo real.
 
@@ -229,14 +225,11 @@ encuentran en lugares distantes y están en necesidad de tele-medicina o
 servicios de tele-educación. También se utiliza en entornos comerciales y
 corporativos para facilitar las reuniones y conferencias, por lo general entre
 las partes que ya han establecido relaciones. Como todas las tecnologías de las
-comunicaciones de larga distancia (como el teléfono e Internet), reduciendo la
-necesidad de viajar a unir a la gente que la tecnología también contribuye a la
-reducción de las emisiones de carbono, lo que contribuye a reducir el
-calentamiento global.
+comunicaciones de larga distancia (como el teléfono e Internet), reduce la
+necesidad de viajar para unir a la gente.
 
 Todo esto se puede realizar por medio del protocolo de iniciación de sesión
-(SIP), para la simplificación de la instalación y de la gestión se puede usar
-Elastix.
+(SIP). 
 
 Gestión de contactos
 ------------------------
@@ -255,16 +248,16 @@ Requerimientos
 Software Libre
 ------------------
 
-El primer requisito para la implementación del servicio, es que cualquier
+El primer requisito para la implementación del servicio es que cualquier
 programa que se adopte, debe ser software libre. Las razones de este requisito
-son a la vez técnicas y éticas. Desde hace muchos años, dentro de la industria
-del software, se ha establecido que el software de código abierto ofrece
+son a la vez técnicas, legales y éticas. Desde hace muchos años, dentro de la industria
+del software, se ha establecido que el software libre ofrece
 aplicaciones de una manera más rápida, con mejores resultados y menores costos.
 La razón para ello es que los individuos y las empresas que desarrollan software
-de código abierto (OSS) están constantemente capaz de confiar en los logros y el
+libre están constantemente capaces de confiar en los logros y el
 apoyo de una comunidad mundial. Esto les da una ventaja extrema sobre proyectos
 propios donde la calidad de un producto depende por completo de las personas que
-están estrictamente dan acceso a ella. Los costos de OSS son también más bajos,
+ estrictamente tienen acceso a ella. Los costos del softwre libre son también más bajos,
 porque la mayoría de los productos no se aplican derechos de licencia, o vender
 licencias que son más baratos que sus contra-partes propietarias.
 
@@ -275,13 +268,13 @@ por ser capaz de obtener acceso a su código fuente, pudiendo cambiarlo, pudiend
 redistribuirlo y usarlo para cualquier propósito.
 
 Una consecuencia directa de la adopción del software libre es la transparencia.
-La transparencia es de hecho uno de los elementos que hace para un mejor
+La transparencia es de hecho uno de los elementos que hace un mejor
 gobierno.
 
 Estándares abiertos
 -----------------------
 
-Otro requisito es la adopción de estándares abiertos. de acuerdo al marco
+Otro requisito es la adopción de estándares abiertos. De acuerdo al marco
 europeo de interoperabilidad para Servicios de administración electrónica
 paneuropea, un estándar abierto se refiere a un formato o protocolo que es:
 
