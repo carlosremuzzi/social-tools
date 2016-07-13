@@ -290,7 +290,8 @@ en el Catálogo de Estándares Abiertos, como también el estado del arte al int
 CTIC-EPB.   El   objetivo   central   de   la   adopción   y/o   desarrollo   de   estándares   para   el
 desarrollo, adquisición, etc., de software libre es dotar a las entidades del Estado las
 herramientas necesarias para normar el proceso y para que el resultado sea óptimo para el
-uso y desarrollo posterior en el marco de colectividades de usuarios y desarrolladores.
+uso y desarrollo posterior en el marco de colectividades de usuarios y desarrolladores :cite:`agetic2016plansl` .
+
 
 Servicios soberanos
 -----------------------
