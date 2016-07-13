@@ -1,3 +1,10 @@
+.. role:: cite
+
+.. raw:: latex
+
+   \providecommand*\DUrolecite[1]{\cite{#1}}
+
+
 Servicio de Comunicación Libre para Bolivia
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -126,7 +133,7 @@ reemplazar; y finalmente, los recursos humanos necesarios.
 
 Los sistemas de correo electrónico han existido desde la década de los 60 y
 ahora se han convertido en la herramienta de mensajería estándar y de mayor
-confianza en Internet [egan2008inbox]_. Gracias a la criptografía y el ascenso de las
+confianza en Internet :cite:`egan2008inbox` . Gracias a la criptografía y el ascenso de las
 infraestructuras de clave pública (PKI), los mensajes de correo electrónico
 ahora han alcanzado el estado de los documentos legales en muchos países, entre
 ellos Bolivia. Una característica importante del correo electrónico, es su
