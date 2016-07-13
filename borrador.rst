@@ -202,8 +202,8 @@ de transporte seguro en tiempo real (SRTP). Para las transmisiones seguras de
 mensajes SIP, el protocolo se puede cifrar, por medio de una capa de transporte
 seguro (Transport Layer Security; TLS).
 
-Si bien XMPP, tiene soporte para realizar llamadas de voz y hasta de vídeo, esta
-aun es proceso de desarrollo temprano, por tanto, requiere de correcciones y
+Si bien XMPP, tiene soporte para realizar llamadas de voz y hasta de vídeo, aun esta
+en un proceso de desarrollo, por tanto, requiere de correcciones y
 trabajo de mantenimiento, en cambio SIP esta bien establecido y soporta la
 adición de nuevas tecnologías, como codecs de audio y vídeo, por lo que podemos
 presumir que tiene aun mucha vida por delante.
@@ -211,7 +211,7 @@ presumir que tiene aun mucha vida por delante.
 Vídeo telefonía
 -------------------
 
-Vídeo telefonía comprende las tecnologías para la recepción y transmisión de
+La vídeo telefonía comprende las tecnologías para la recepción y transmisión de
 señales de audio y vídeo por los usuarios en diferentes ubicaciones, para la
 comunicación entre las personas, en tiempo real.
 
@@ -224,14 +224,11 @@ encuentran en lugares distantes y están en necesidad de tele-medicina o
 servicios de tele-educación. También se utiliza en entornos comerciales y
 corporativos para facilitar las reuniones y conferencias, por lo general entre
 las partes que ya han establecido relaciones. Como todas las tecnologías de las
-comunicaciones de larga distancia (como el teléfono e Internet), reduciendo la
-necesidad de viajar a unir a la gente que la tecnología también contribuye a la
-reducción de las emisiones de carbono, lo que contribuye a reducir el
-calentamiento global.
+comunicaciones de larga distancia (como el teléfono e Internet), reduce la
+necesidad de viajar para unir a la gente.
 
 Todo esto se puede realizar por medio del protocolo de iniciación de sesión
-(SIP), para la simplificación de la instalación y de la gestión se puede usar
-Elastix.
+(SIP). 
 
 Gestión de contactos
 ------------------------
@@ -250,16 +247,16 @@ Requerimientos
 Software Libre
 ------------------
 
-El primer requisito para la implementación del servicio, es que cualquier
+El primer requisito para la implementación del servicio es que cualquier
 programa que se adopte, debe ser software libre. Las razones de este requisito
-son a la vez técnicas y éticas. Desde hace muchos años, dentro de la industria
-del software, se ha establecido que el software de código abierto ofrece
+son a la vez técnicas, legales y éticas. Desde hace muchos años, dentro de la industria
+del software, se ha establecido que el software libre ofrece
 aplicaciones de una manera más rápida, con mejores resultados y menores costos.
 La razón para ello es que los individuos y las empresas que desarrollan software
-de código abierto (OSS) están constantemente capaz de confiar en los logros y el
+libre están constantemente capaces de confiar en los logros y el
 apoyo de una comunidad mundial. Esto les da una ventaja extrema sobre proyectos
 propios donde la calidad de un producto depende por completo de las personas que
-están estrictamente dan acceso a ella. Los costos de OSS son también más bajos,
+ estrictamente tienen acceso a ella. Los costos del softwre libre son también más bajos,
 porque la mayoría de los productos no se aplican derechos de licencia, o vender
 licencias que son más baratos que sus contra-partes propietarias.
 
@@ -270,7 +267,7 @@ por ser capaz de obtener acceso a su código fuente, pudiendo cambiarlo, pudiend
 redistribuirlo y usarlo para cualquier propósito.
 
 Una consecuencia directa de la adopción del software libre es la transparencia.
-La transparencia es de hecho uno de los elementos que hace para un mejor
+La transparencia es de hecho uno de los elementos que hace un mejor
 gobierno.
 
 Estándares abiertos
