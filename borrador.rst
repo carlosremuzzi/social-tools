@@ -257,7 +257,7 @@ La razón para ello es que los individuos y las empresas que desarrollan softwar
 libre están constantemente capaces de confiar en los logros y el
 apoyo de una comunidad mundial. Esto les da una ventaja extrema sobre proyectos
 propios donde la calidad de un producto depende por completo de las personas que
- estrictamente tienen acceso a ella. Los costos del softwre libre son también más bajos,
+estrictamente tienen acceso a ella. Los costos del softwre libre son también más bajos,
 porque la mayoría de los productos no se aplican derechos de licencia, o vender
 licencias que son más baratos que sus contra-partes propietarias.
 
@@ -274,32 +274,23 @@ gobierno.
 Estándares abiertos
 -----------------------
 
-Otro requisito es la adopción de estándares abiertos. De acuerdo al marco
-europeo de interoperabilidad para Servicios de administración electrónica
-paneuropea, un estándar abierto se refiere a un formato o protocolo que es:
+Según   establece   el   Reglamento   para   el   Desarrollo   de   Tecnologías   de   Información   y
+Comunicación, aprobado mediante el Decreto Supremo Nº 1793 el Estado debe utilizar
+estándares abiertos para:
 
-- Someterse a una evaluación pública completa y el uso sin restricciones de una
-  manera igualmente disponible para todas las partes;
-- Sin ningún tipo de componentes o extensiones que tengan dependencias sobre
-  formatos o protocolos que no cumplen con la definición de un estándar
-  abierto a sí mismos;
-- Libre de cláusulas jurídicas o técnicas que limiten su utilización por
-  cualquiera de las partes o en cualquier modelo de negocio;
-- Gestionado y desarrollado de forma independiente de cualquier proveedor
-  individual en un proceso abierto a la participación equitativa de los
-  competidores y terceros;
-- Disponible en múltiples implementaciones completas por proveedores de la
-  competencia, o como una implementación completa igualmente a disposición de
-  todas las partes.
+* Implementar y desarrollar software
+* Procesos de interoperabilidad automatizados
+* Intercambio de datos
+* Intercambio de información
 
-Este conjunto de reglas es fundamental para el logro de la interoperabilidad.
-Una definición breve de interoperabilidad, podemos definirla como: *La capacidad
-de las organizaciones gubernamentales para compartir información e integrar los
-procesos de información y de negocios mediante el uso de estándares comunes*.
-
-El objetivo principal de este requisito es promover la implementación de
-servicios plenamente interoperables prestados por la administración pública de
-Bolivia.
+En este sentido, todo sistema o software adquirido o desarrollado por entidades estatales,
+sea a través de procesos de contratación, adquisición, desarrollo interno o cualquier otro,
+deberá contemplar los estándares a ser adoptados por el Estado Plurinacional de Bolivia
+en el Catálogo de Estándares Abiertos, como también el estado del arte al interior del
+CTIC-EPB.   El   objetivo   central   de   la   adopción   y/o   desarrollo   de   estándares   para   el
+desarrollo, adquisición, etc., de software libre es dotar a las entidades del Estado las
+herramientas necesarias para normar el proceso y para que el resultado sea óptimo para el
+uso y desarrollo posterior en el marco de colectividades de usuarios y desarrolladores.
 
 Servicios soberanos
 -----------------------
