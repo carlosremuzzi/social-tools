@@ -23,6 +23,7 @@ Genera(){
   sed -i $generadoPor  $nombreArchivo.tex
   sed -i 's/{[ ]*/{/g' $nombreArchivo.tex
   sed -i 's/[ ]*}/}/g' $nombreArchivo.tex
+  sed -i 's/\DUrole{imagentex}{([[:print:]])\\}\\{([[:print:]])}/\DUrole{imagentex}{\1}{\2}/g' $nombreArchivo.tex
   #sed -i 's/\\end{quote}/\\end{quotation}/g' $nombreArchivo.tex
 
   latexmk -latexoption="-synctex=1 -interaction=batchmode -shell-escape" -xelatex $nombreArchivo.tex

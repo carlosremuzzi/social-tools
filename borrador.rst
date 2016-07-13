@@ -358,7 +358,6 @@ datos siempre disponibles. Esto es que un centro de datos central se manejaran
 a las entidades mas pequeñas, que no cuentan con personal para mantener la
 infraestructura.
 
-
 Arquitectura orientada a servicios
 --------------------------------------
 
@@ -383,6 +382,8 @@ Diagrama de servicios
 
 Diagrama de Centro de Datos
 ---------------------------
+
+:imagentex:`Generados/diagramaCentroDeDatos.tex`
 
 
 Implementación

@@ -117,5 +117,5 @@
 
 .. raw:: latex
 
-  \providecommand*\DUroleimagentex[1]{\begin{figure}[h]\centering\input{#1}
-  \caption{#1}\label{#1}\end{figure}}
+  \providecommand*{\DUroleimagentex}[2][Figura]{\begin{figure}[h]\centering\input{#2}
+  \caption{#1}\label{#2}\end{figure}}
