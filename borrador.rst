@@ -5,7 +5,7 @@ Servicio de Comunicación Libre para Bolivia
 
 .. contents::
 
-|SinNumeración| Acrónimos |Cierra|
+:sinnumeracion:`Acrónimos`
 
 +------+--------------------------------------------+
 | FOSS | Free and Open Source  Software             |
@@ -38,7 +38,8 @@ Servicio de Comunicación Libre para Bolivia
 +------+--------------------------------------------+
 
 
-|SinNumeración| Propósito de este documento |Cierra|
+Propósito de este documento
+```````````````````````````
 
 El propósito de este documento es describir la arquitectura de un servicio de
 comunicación, diseñado para la administración pública de Bolivia.
