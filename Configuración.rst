@@ -133,6 +133,6 @@
 
 .. raw:: latex
 
-   \providecommand*\DUrolecite[1]{\cite{#1}}
+   \providecommand*\DUrolecite[1]{\citet{#1}}
 
 
