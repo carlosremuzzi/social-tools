@@ -302,24 +302,24 @@ sabores: Software como Servicio (SaaS), Plataforma como Servicio (PaaS) e
 Infraestructura como Servicio (IaaS). Estos patrones muestran una nueva manera de
 hacer software que sin duda merecen atención. Pero también plantean un nuevo
 problema: la mayoría de estos servicios en la nube se asignan en servidores fuera
-de las fronteras del estado y el mantenimiento y desarrollo de las comunidades y
+de las fronteras del Estado y el mantenimiento y desarrollo de las comunidades y
 las empresas que operaban en el extranjero. Este patrón termina limitando las
 oportunidades para la industria nacional de software, y comunidades para
 prosperar y crecer. Además, este patrón viola el concepto de soberanía
 tecnológica, siempre que el usuario se suscribe a servicios extranjeros. La
 solución a este problema es el despliegue de servicios en la nube desde dentro de
-las fronteras del Estado. A raíz de este requisito la
-industria del software será capaz de adoptar y desarrollar servicios en la nube,
-y las nuevas tecnologías en general, totalmente, al tiempo que reduce
-drásticamente su dependencia de la investigación y el desarrollo extranjera.
+las fronteras del Estado. A raíz de este requisito la industria del software
+será capaz de adoptar y desarrollar servicios en la nube, y las nuevas
+tecnologías en general, totalmente, al tiempo que reduce drásticamente su
+dependencia a la investigación y el desarrollo extranjero.
 
 Integración
 ---------------
 
 El requerimiento de integración se refiere a la capacidad de administrar
-directorios de contactos de la manera más integrada posible.
-Un enfoque particular que se pone en la realidad específica del sector público,
-que se caracteriza por los siguientes aspectos:
+directorios de contactos de la manera más integrada posible. Un enfoque
+particular que se pone en la realidad específica del sector público, que se
+caracteriza por los siguientes aspectos:
 
 
 - Una estructura altamente jerárquica
@@ -345,8 +345,9 @@ Para poder manejar las diferentes entidades de manera descentralizada pero con
 total interoperabilidad, se requiere tener una Arquitectura orientada a
 servicios y contemplar los casos donde las entidades más pequeñas, preferirán
 utilizar la infraestructura de las entidades más grandes. Para mantener sus
-datos siempre disponibles.
-
+datos siempre disponibles. Esto es que un centro de datos central se manejaran
+a las entidades mas pequeñas, que no cuentan con personal para mantener la
+infraestructura.
 
 Arquitectura orientada a servicios
 --------------------------------------
@@ -368,11 +369,12 @@ sistemas propios o de terceros.
 Diagrama de servicios
 -------------------------
 
-.. image:: Generados/Arquitectura.png
-  :width: 80%
+:imagentex:`Generados/Arquitectura.tex`
 
 Diagrama de Centro de Datos
 ---------------------------
+
+:imagentex:`Generados/diagramaCentroDeDatos.tex`
 
 
 Implementación

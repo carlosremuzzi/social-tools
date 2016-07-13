@@ -3,9 +3,9 @@ TYPE=svg
 
 nombreArchivo=Arquitectura
 dot $nombreArchivo.gv -T$TYPE -o Generados/$nombreArchivo.$TYPE
-inkscape -z -f Generados/$nombreArchivo.$TYPE --export-latex --export-pdf="Generados/$nombreArchivo.pdf"
-mv Generados/$nombreArchivo.pdf_tex Generados/$nombreArchivo.tex
-rm Generados/$nombreArchivo.pdf
+#inkscape -z -f Generados/$nombreArchivo.$TYPE --export-latex --export-pdf="Generados/$nombreArchivo.pdf"
+#mv Generados/$nombreArchivo.pdf_tex Generados/$nombreArchivo.tex
+#rm Generados/$nombreArchivo.pdf
 
 TYPE=png
 dot $nombreArchivo.gv -T$TYPE -o Generados/$nombreArchivo.$TYPE
@@ -23,6 +23,7 @@ Genera(){
   sed -i $generadoPor  $nombreArchivo.tex
   sed -i 's/{[ ]*/{/g' $nombreArchivo.tex
   sed -i 's/[ ]*}/}/g' $nombreArchivo.tex
+  sed -i 's/\DUrole{imagentex}{([[:print:]])\\}\\{([[:print:]])}/\DUrole{imagentex}{\1}{\2}/g' $nombreArchivo.tex
   #sed -i 's/\\end{quote}/\\end{quotation}/g' $nombreArchivo.tex
 
   latexmk -latexoption="-synctex=1 -interaction=batchmode -shell-escape" -xelatex $nombreArchivo.tex
