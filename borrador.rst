@@ -304,7 +304,7 @@ Una definición breve de interoperabilidad, podemos definirla como: *La capacida
 de las organizaciones gubernamentales para compartir información e integrar los
 procesos de información y de negocios mediante el uso de estándares comunes*.
 
-El objetivo principal de este requisito, es promover la implementación de
+El objetivo principal de este requisito es promover la implementación de
 servicios plenamente interoperables prestados por la administración pública de
 Bolivia.
 
@@ -314,17 +314,17 @@ Servicios soberanos
 Este requisito cumple con las directrices dictadas por la Agenda Patriótica
 2025, que establece firmemente el concepto de Soberanía Tecnológica. Hoy en día
 hemos sido testigos del surgimiento de servicios en la nube en todos sus
-sabores: Software como Servicio (SaaS), plataforma como servicio (PaaS) e
-Infraestructura como Servicio (IaaS). Estos patrones muestran una nueva y
-emocionante manera de hacer que el software que sin duda merecen atención. Pero
-también plantean un nuevo problema: la mayoría de estos servicios en la nube se
-asignan en servidores fuera de las fronteras del estado y el mantenimiento y
-desarrollo de las comunidades y las empresas que operaban en el extranjero. Este
-patrón termina limitando las oportunidades para la industria nacional de
-software, y comunidades para prosperar y crecer. Además, este patrón viola el
-concepto de soberanía tecnológica, siempre que el usuario se suscribe a
-servicios extranjeros. La solución a este problema es el despliegue de servicios
-en la nube desde dentro de las fronteras del Estado. A raíz de este requisito la
+sabores: Software como Servicio (SaaS), Plataforma como Servicio (PaaS) e
+Infraestructura como Servicio (IaaS). Estos patrones muestran una nueva manera de
+hacer software que sin duda merecen atención. Pero también plantean un nuevo
+problema: la mayoría de estos servicios en la nube se asignan en servidores fuera
+de las fronteras del estado y el mantenimiento y desarrollo de las comunidades y
+las empresas que operaban en el extranjero. Este patrón termina limitando las
+oportunidades para la industria nacional de software, y comunidades para
+prosperar y crecer. Además, este patrón viola el concepto de soberanía
+tecnológica, siempre que el usuario se suscribe a servicios extranjeros. La
+solución a este problema es el despliegue de servicios en la nube desde dentro de
+las fronteras del Estado. A raíz de este requisito la
 industria del software será capaz de adoptar y desarrollar servicios en la nube,
 y las nuevas tecnologías en general, totalmente, al tiempo que reduce
 drásticamente su dependencia de la investigación y el desarrollo extranjera.
