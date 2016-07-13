@@ -21,10 +21,11 @@ Genera(){
   opcionesDoc=$tamPapel,$tamLetra
   rst2xetex --template=latex2e/xelatex.tex --documentclass=$tipoDocumento --documentoptions=$opcionesDoc --use-latex-docinfo --use-latex-citations --figure-citations --section-subtitles --smart-quotes=yes -r 3 --section-numbering --compound-enumerators -l $idioma $nombreArchivo.rst $nombreArchivo.tex
   sed -i $generadoPor  $nombreArchivo.tex
-  #sed -i 's/\\begin{quote}/\\begin{quotation}/g' $nombreArchivo.tex
+  sed -i 's/{[ ]*/{/g' $nombreArchivo.tex
+  sed -i 's/[ ]*}/}/g' $nombreArchivo.tex
   #sed -i 's/\\end{quote}/\\end{quotation}/g' $nombreArchivo.tex
 
-  latexmk -xelatex $nombreArchivo.tex
+  latexmk -latexoption="-synctex=1 -interaction=batchmode -shell-escape" -xelatex $nombreArchivo.tex
 }
 
 nombreArchivo=XMPP_Federado

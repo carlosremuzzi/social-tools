@@ -90,7 +90,7 @@
 
 .. |Cierra| raw:: latex
 
-  }
+   }
 
 .. |FinFigura| raw:: latex
 
@@ -124,3 +124,9 @@
 .. |CitaAño| raw:: latex
 
   \citeyear{
+
+.. |SinNumeración| raw:: latex
+
+  \section*{
+
+
