@@ -125,14 +125,16 @@
 
   \citeyear{
 
-.. |SinNumeración| raw:: latex
+.. role:: sinnumeracion
 
-  \section*{
+.. raw:: latex
+
+  \providecommand*\DUrolesinnumeracion[1]{\addcontentsline{toc}{section}{#1}
+  \section*{#1}}
 
 .. role:: cite
 
 .. raw:: latex
 
    \providecommand*\DUrolecite[1]{\citet{#1}}
-
 
