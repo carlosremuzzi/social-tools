@@ -3,9 +3,9 @@ TYPE=svg
 
 nombreArchivo=Arquitectura
 dot $nombreArchivo.gv -T$TYPE -o Generados/$nombreArchivo.$TYPE
-inkscape -z -f Generados/$nombreArchivo.$TYPE --export-latex --export-pdf="Generados/$nombreArchivo.pdf"
-mv Generados/$nombreArchivo.pdf_tex Generados/$nombreArchivo.tex
-rm Generados/$nombreArchivo.pdf
+#inkscape -z -f Generados/$nombreArchivo.$TYPE --export-latex --export-pdf="Generados/$nombreArchivo.pdf"
+#mv Generados/$nombreArchivo.pdf_tex Generados/$nombreArchivo.tex
+#rm Generados/$nombreArchivo.pdf
 
 TYPE=png
 dot $nombreArchivo.gv -T$TYPE -o Generados/$nombreArchivo.$TYPE

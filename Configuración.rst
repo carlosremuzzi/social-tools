@@ -100,31 +100,6 @@
 
   \bibliography{Bibliografía}
 
-
-.. |CitaT| raw:: latex
-
-  \citet{
-
-.. |CitaP| raw:: latex
-
-  \citep{
-
-.. |CitaT*| raw:: latex
-
-  \citet*{
-
-.. |CitaP*| raw:: latex
-
-  \citep*{
-
-.. |CitaAutor| raw:: latex
-
-  \citeauthor{
-
-.. |CitaAño| raw:: latex
-
-  \citeyear{
-
 .. role:: sinnumeracion
 
 .. raw:: latex
@@ -138,3 +113,9 @@
 
    \providecommand*\DUrolecite[1]{\citet{#1}}
 
+.. role:: imagentex
+
+.. raw:: latex
+
+  \providecommand*\DUroleimagentex[1]{\begin{figure}[h]\centering\input{#1}
+  \caption{#1}\label{#1}\end{figure}}
