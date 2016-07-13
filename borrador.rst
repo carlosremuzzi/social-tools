@@ -1,18 +1,11 @@
-.. role:: cite
-
-.. raw:: latex
-
-   \providecommand*\DUrolecite[1]{\cite{#1}}
-
-
 Servicio de Comunicación Libre para Bolivia
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. include:: Configuración.rst
+
 .. contents::
 
-
-Acrónimos
-`````````
+|SinNumeración| Acrónimos |Cierra|
 
 +------+--------------------------------------------+
 | FOSS | Free and Open Source  Software             |
@@ -45,8 +38,8 @@ Acrónimos
 +------+--------------------------------------------+
 
 
-1. Propósito de este documento
-``````````````````````````````
+|SinNumeración| Propósito de este documento |Cierra|
+
 El propósito de este documento es describir la arquitectura de un servicio de
 comunicación, diseñado para la administración pública de Bolivia.
 
@@ -56,7 +49,9 @@ Las premisas para este servicio, son:
   que se deben actualizar.
 - Es un servicio con cifrado (La comunicación es privada).
 - Los servicios son Federados (Cada entidad es responsable de sus datos, y
-  se relaciona con las demás de manera transparente)
+  se relaciona con las demás de manera transparente).
+- Se tendrá un centro de datos principal, donde se albergaran a todas las
+  instituciones y las que deseen pueden manejar sus propios centros.
 
 El documento es estructurado como sigue.
 
@@ -73,7 +68,7 @@ El documento es estructurado como sigue.
 
 - Finalmente la sección 6, discute la logística y sus retos.
 
-2. Introducción
+Introducción
 ```````````````
 
 Actualmente las tecnologías tienen un impacto creciente en la sociedad. Somos
@@ -96,7 +91,7 @@ En este documento, nos centramos en la administración pública de Bolivia y la
 forma en que su infraestructura de tecnologías de información y comunicación
 podría ser mejorada.
 
-2.1 Marco Legal
+Marco legal
 ---------------
 
 Este documento encuentra sus fundamentos en las decisiones tomadas en el
@@ -118,7 +113,7 @@ para el documento actual y muchos otros planes gubernamentales en curso: *la
 soberanía y la transparencia en la gestión pública regida por los principios de:
 no robar, no mentir, no ser flojo.*
 
-3. Servicios
+Servicios
 ````````````
 
 En esta sección se describe el conjunto de servicios que se incluyen en el
@@ -128,12 +123,12 @@ cada servicio, el tipo y la magnitud de la población atendida, la tecnología a
 reemplazar; y finalmente, los recursos humanos necesarios.
 
 
-3.1 Correo electrónico
+Correo electrónico
 ----------------------
 
 Los sistemas de correo electrónico han existido desde la década de los 60 y
 ahora se han convertido en la herramienta de mensajería estándar y de mayor
-confianza en Internet :cite:`egan2008inbox` . Gracias a la criptografía y el ascenso de las
+confianza en Internet :cite:`egan2008inbox`. Gracias a la criptografía y el ascenso de las
 infraestructuras de clave pública (PKI), los mensajes de correo electrónico
 ahora han alcanzado el estado de los documentos legales en muchos países, entre
 ellos Bolivia. Una característica importante del correo electrónico, es su
@@ -165,7 +160,7 @@ para cifrar mensajes a las mismas, mientras se mantiene una clave privada
 secreta que pueden utilizar para descifrar esos mensajes o cifrar digitalmente
 y firmar los mensajes que enviar.
 
-3.2 Chat
+Chat
 --------
 
 La mensajería instantánea existía como concepto desde los años 60. Durante la
@@ -185,7 +180,7 @@ extensiones.
 
     extensiones: XEP 0166 - Jingle - soporte para sesiones multimedia
 
-3.3 Llamadas Telefónicas
+Llamadas telefónicas
 ------------------------
 
 El Protocolo de Iniciación de Sesión (SIP) es un protocolo de comunicaciones
@@ -217,7 +212,7 @@ trabajo de mantenimiento, en cambio SIP esta bien establecido y soporta la
 adición de nuevas tecnologías, como codecs de audio y vídeo, por lo que podemos
 presumir que tiene aun mucha vida por delante.
 
-3.4 Vídeo telefonía
+Vídeo telefonía
 -------------------
 
 Vídeo telefonía comprende las tecnologías para la recepción y transmisión de
@@ -242,7 +237,7 @@ Todo esto se puede realizar por medio del protocolo de iniciación de sesión
 (SIP), para la simplificación de la instalación y de la gestión se puede usar
 Elastix.
 
-3.5 Gestión de Contactos
+Gestión de contactos
 ------------------------
 
 En el contexto de las redes, existe el capital social, en el que la gente tiene
@@ -253,10 +248,10 @@ caracterizarse por densos racimos de conexiones fuertes. La información dentro
 de estos grupos tiende a ser bastante homogénea y redundante. La información no
 redundante, se obtiene, a menudo; a través de contactos en diferentes grupos.
 
-4. Requerimientos
+Requerimientos
 `````````````````
 
-4.1 Software Libre
+Software Libre
 ------------------
 
 El primer requisito para la implementación del servicio, es que cualquier
@@ -282,7 +277,7 @@ Una consecuencia directa de la adopción del software libre es la transparencia.
 La transparencia es de hecho uno de los elementos que hace para un mejor
 gobierno.
 
-4.2 Estándares Abiertos
+Estándares abiertos
 -----------------------
 
 Otro requisito es la adopción de estándares abiertos. de acuerdo al marco
@@ -312,7 +307,7 @@ El objetivo principal de este requisito, es promover la implementación de
 servicios plenamente interoperables prestados por la administración pública de
 Bolivia.
 
-4.3 Servicios Soberanos
+Servicios soberanos
 -----------------------
 
 Este requisito cumple con las directrices dictadas por la Agenda Patriótica
@@ -333,7 +328,7 @@ industria del software será capaz de adoptar y desarrollar servicios en la nube
 y las nuevas tecnologías en general, totalmente, al tiempo que reduce
 drásticamente su dependencia de la investigación y el desarrollo extranjera.
 
-4.4 Integración
+Integración
 ---------------
 
 El requerimiento de integración se refiere a la capacidad de administrar
@@ -355,10 +350,10 @@ El principal objetivo de este requisito es inspirar a los servicios de
 comunicación donde se requiere al usuario un mínimo esfuerzo para la gestión de
 contactos.
 
-5. Arquitectura propuesta
+Arquitectura propuesta
 `````````````````````````
 
-5.1 Introducción
+Introducción
 ----------------
 
 Para poder manejar las diferentes entidades de manera descentralizada pero con
@@ -368,7 +363,7 @@ utilizar la infraestructura de las entidades más grandes. Para mantener sus
 datos siempre disponibles.
 
 
-5.2 Arquitectura orientada a Servicios
+Arquitectura orientada a servicios
 --------------------------------------
 
 La Arquitectura Orientada a Servicios SOA, del inglés Service Oriented
@@ -385,17 +380,20 @@ definida de exposición e invocación de servicios (comúnmente pero no
 exclusivamente servicios web), lo cual facilita la interacción entre diferentes
 sistemas propios o de terceros.
 
-5.3 Diagrama de Servicios
+Diagrama de servicios
 -------------------------
-
 
 .. image:: Generados/Arquitectura.png
   :width: 80%
 
-6. Implementación
+Diagrama de Centro de Datos
+---------------------------
+
+
+Implementación
 `````````````````
 
-6.1 Directorio Estatal
+Directorio Estatal
 ----------------------
 
 Para tener un directorio estatal, se debe considerar que la información que se
@@ -428,7 +426,7 @@ Cómo alternativas de herramientas para este servicio, podemos pensar en utiliza
                 pero es necesario tener una capa de autenticación como
                 servicio, para la federación del directorio.
 
-6.2 Interoperabilidad
+Interoperabilidad
 ---------------------
 
 Para poder federar el directorio, se necesita un servicio de identificación,
@@ -437,10 +435,10 @@ digital descentralizado, con el que un usuario puede identificarse en una
 página web a través de una URL (o un XRI en la versión actual) y puede ser
 verificado por cualquier servidor que soporte el protocolo.
 
-6.3 Servicios
+Servicios
 -------------
 
-6.3.1 Correo Electrónico
+Correo electrónico
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para este servicio existen muchas alternativas, por ejemplo:
@@ -472,7 +470,7 @@ característica es que sus archivos de configuración son compatibles con Sendma
 no quiere parecerse a Sendmail, tiene características que lo hacen muy
 interesante
 
-6.3.2 Chat
+Chat
 ~~~~~~~~~~
 
 Para la gestión del servicio de Chat se utiliza Ejabberd, lo cual es un servidor
@@ -488,7 +486,7 @@ implementación de redes descentralizadas.
 El personal requerido para esta herramienta no debe necesariamente especializado
 ya que se necesitan mínimos esfuerzos de instalación y mantenimiento.
 
-6.3.3 Llamadas Telefónicas
+Llamadas telefónicas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para la gestión del servicio de telefonía se pueden utilizar servidores como
@@ -502,7 +500,7 @@ integrar diferentes tecnologías  cuales VoiP, SIP, H.323, IAX y MGCP
 Elastix esta basado sobre Asterisk y es distribuido bajo licencia GPL e
 implementa también servicios de chat, fax, email y trabajo colaborativo.
 
-6.3.4 Vídeo Telefonía
+Vídeo telefonía
 ~~~~~~~~~~~~~~~~~~~~~
 
 Para la implementación de servicios de vídeo llamadas no es necesario instalar
@@ -515,7 +513,7 @@ aplicaciones clientes para dispositivos móviles basadas sobre SIP pero no
 existen actualmente distribuciones estables que permitan la realización de
 vídeo llamadas basadas sobre XMPP.
 
-6.3.5 Gestión de Contactos
+Gestión de contactos
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para la gestión de contactos, utilizaremos Funanbol, que es un servidor de
@@ -529,10 +527,10 @@ Esta herramienta requiere un proceso de instalación extenso y poco
 mantenimiento, por tanto el personal para este, no necesariamente debe ser
 especializado
 
-6.4 Aplicaciones Clientes
+Aplicaciones clientes
 -------------------------
 
-6.4.1 Correo Electrónico
+Correo electrónico
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 Actualmente existe una gran variedad de aplicaciones clientes para correo electrónico
@@ -543,7 +541,7 @@ nativos pre-instalados.
 El servicio de correo electrónico viene también con un cliente web, lo cual 
 permite al usuario la consultación de correo desde cualquier navegador.
 
-6.4.2 Chat
+Chat
 ~~~~~~~~~~
 
 Existe una gran variedad de clientes de mensajería instantánea para entorno desktop.
@@ -554,7 +552,7 @@ de las interfaces y la estabilidad del software.
 
 Una opción estable y relativamente amigable es Conversations. Otra opcion es Xabber Dev. 
 
-6.4.3 Llamadas Telefónicas
+Llamadas telefónicas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Para realizar llamadas SIP desde entorno desktop existen las aplicaciones Linphone y Ekiga.
@@ -562,7 +560,7 @@ También existe Jitsi para protocolo SIP y también XMPP.
 
 Existe también la versión Linphone para móvil. Otra solución móvil es Lumicall.  
 
-6.4.4 Vídeo Llamadas
+Vídeo telefonía
 ~~~~~~~~~~~~~~~~~~~~
 
 Para realizar vídeo llamadas SIP desde entorno desktop existen las aplicaciones Linphone y Ekiga
@@ -571,7 +569,7 @@ sobre protocolo SIP y XMPP.
 
 La versión móvil de Linphone también permite vídeo llamadas. 
 
-6.5 Tiempos
+Tiempos
 -----------
 
 La implementación del servicio de comunicación estatal esta planificada por fases.
@@ -579,15 +577,18 @@ La primera fase consiste en la activación de los servicios para los funcionario
 internos de AGETIC. Es una fase de test en la cual se pone particular enfoque
 en las características de escalabilidad y usabilidad del servicio.
 
-La segunda fase contempla la extensión del servicio al conjunto de funcionarios
+La segunda fase, se realizara entre algunas entidades, para comprobar la
+estabilidad y escalabilidad de los servicios.
+
+La tercera fase contempla la extensión del servicio al conjunto de funcionarios
 públicos del estado. Esta fase requiere un nivel de estabilidad, seguridad y
 usabilidad muy alto.
 
-La tercera fase incluye la posibilidad de abrir el servicio a la población en
-general. El objetivo de esta fase es de mejorar la comunicación entre
-funcionario publico y ciudadano.
+La cuarta fase, que es tentativa, incluye la posibilidad de abrir el servicio a
+la población en general. El objetivo de esta fase es de mejorar la comunicación
+entre funcionario publico y ciudadano.
 
-6.6 Conclusiones
+Conclusiones
 ----------------
 
 Dada la popularidad de los dispositivos móviles inteligentes, y el soporte de
@@ -617,3 +618,5 @@ Bibliografía
 * SIP - https://en.wikipedia.org/wiki/SIP
 * Instant Messaging - https://en.wikipedia.org/wiki/Instant_messaging
 * EXIM USE - http://www.securityspace.com/s_survey/data/man.201603/mxsurvey.html
+
+|ImprimirBibliografía|

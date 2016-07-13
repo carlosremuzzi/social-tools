@@ -7,6 +7,8 @@
 *.pdf
 *.tex
 *.toc
-
+*.bbl
+*.blg
+*.synctex.gz
 
 
