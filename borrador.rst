@@ -84,7 +84,7 @@ la habilidad de simplificar la herramientas y los dispositivos de comunicación;
 y la capacidad de integrar orgánicamente la infraestructura de red con una reducción en los costos y un
 aumento en la calidad del servicio :cite:`weihua2011` .
 
-El el caso del estado boliviano, una respuesta a estos problemas es el Servicio de Comunicación contemplado en la presente propuesta. 
+El el caso del Estado Boliviano, una respuesta a estos problemas es el Servicio de Comunicación propuesto con el presente documento. 
 El sistema esta pensado para alcanzar a toda la red de funcionarios públicos del estado y
 su implementación esta inspirada en los principios de la Agenda Patriótica 2025 del Estado Plurinacional De Bolivia. 
 
