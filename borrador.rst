@@ -83,8 +83,9 @@ tener un sistema unificado de manejo; como estos sistemas pueden lograr una coor
 la habilidad de simplificar la herramientas y los dispositivos de comunicación;
 y la capacidad de integrar orgánicamente la infraestructura de red con una reducción en los costos y un
 aumento en la calidad del servicio :cite:`weihua2011` .
-Una respuesta a estos problemas es la implementación de un sistema unificado de comunicación del estado. 
-El sistema esta pensado para alcanzar a toda la red de funcionarios públicos del estado boliviano y
+
+El el caso del estado boliviano, una respuesta a estos problemas es el Servicio de Comunicación contemplado en la presente propuesta. 
+El sistema esta pensado para alcanzar a toda la red de funcionarios públicos del estado y
 su implementación esta inspirada en los principios de la Agenda Patriótica 2025 del Estado Plurinacional De Bolivia. 
 
 Marco legal
