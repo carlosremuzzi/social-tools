@@ -357,8 +357,8 @@ La Arquitectura Orientada a Servicios SOA, del inglés Service Oriented
 Architecture. Es un paradigma de arquitectura para diseñar y desarrollar
 sistemas distribuidos. Las soluciones  SOA  han sido creadas para satisfacer los
 objetivos de facilidad y flexibilidad de integración con sistemas legados,
-alineación directa a los procesos de negocio reduciendo costos de implementación
-, innovación de servicios a clientes y una adaptación ágil ante cambios
+alineación directa a los procesos de negocio reduciendo costos de implementación,
+innovación de servicios a clientes y una adaptación ágil ante cambios
 incluyendo reacción temprana.
 
 Permite la creación de sistemas de información altamente escalables que reflejan
@@ -370,7 +370,17 @@ sistemas propios o de terceros.
 Diagrama de servicios
 -------------------------
 
+En este diagrama se puede observar los diferentes servicios y las tecnologías
+que lo respaldan.
+
 :imagentex:`Generados/Arquitectura.tex`
+
+|lineaEnBlanco|
+|lineaEnBlanco|
+|lineaEnBlanco|
+|lineaEnBlanco|
+|lineaEnBlanco|
+|lineaEnBlanco|
 
 Diagrama de Centro de Datos
 ---------------------------
