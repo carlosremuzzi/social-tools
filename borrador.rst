@@ -72,21 +72,20 @@ El documento es estructurado como sigue.
 Introducción
 ```````````````
 
-Actualmente las tecnologías tienen un impacto creciente en la sociedad. Somos
-testigos de grandes avances en telefonía, redes, mensajería instantánea, y otros
-canales de comunicación.
-La comunicación por medios electrónicos esta transformando la manera en que
-trabajamos, el modo en que aprendemos y que nos relacionamos. Por otra parte, la
-tecnología está cambiando la forma en que los gobiernos prestan servicios a sus
-ciudadanos.
-La calidad y variedad de dichos servicios, dependen, entre otras cosas, de la
-calidad de su infraestructura.
-Debido a esta razón, cada vez más gobiernos de todo el mundo están haciendo
-movimientos hacia la mejora y ampliación de sus servicios web y herramientas de
-comunicación.
-En este documento, nos centramos en la administración pública de Bolivia y la
-forma en que su infraestructura de tecnologías de información y comunicación
-podría ser mejorada.
+Con el desarrollo de las tecnologías de la información, la sociedad ha progresivamente
+adoptado una variedad de métodos de comunicación como los teléfonos fijos, celulares, SMS,
+MMS, fax, buzón de voz, correo electrónico, audio conferencia y vídeo conferencia.
+Junto a el avance de estas tecnologías se registra un aumentos de las soluciones y servicios
+de información y comunicación ofrecidos por los gobiernos. En este contexto se identifican 
+una serie de problemas en relación a las soluciones desarrolladas en gobierno
+electrónico: la capacidad de los sistemas de compartir la misma plataforma y
+tener un sistema unificado de manejo; como estos sistemas pueden lograr una coordinación cross-regional;
+la habilidad de simplificar la herramientas y los dispositivos de comunicación;
+y la capacidad de integrar orgánicamente la infraestructura de red con una reducción en los costos y un
+aumento en la calidad del servicio :cite:`weihua2011` .
+Una respuesta a estos problemas es la implementación de un sistema unificado de comunicación del estado. 
+El sistema esta pensado para alcanzar a toda la red de funcionarios públicos del estado boliviano y
+su implementación esta inspirada en los principios de la Agenda Patriótica 2025 del Estado Plurinacional De Bolivia. 
 
 Marco legal
 ---------------
