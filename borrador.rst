@@ -56,18 +56,18 @@ Las premisas para este servicio, son:
 
 El documento es estructurado como sigue.
 
-- Sección 2, introduce al contexto general y el análisis de marco legislativo,
+- Sección `Introducción`_, introduce al contexto general y el análisis de marco legislativo,
   concerniente a la agenda digital Boliviana.
 
-- Sección 3, examina en detalle el grupo de servicios incluidos en la
+- Sección `Servicios`_, examina en detalle el grupo de servicios incluidos en la
   arquitectura.
 
-- Sección 4, analiza los requerimientos principales considerados en la
+- Sección `Requerimientos`_, analiza los requerimientos principales considerados en la
   definición de la infraestructura de tecnologías.
 
-- Sección 5, describe la arquitectura de los servicios.
+- Sección `Arquitectura propuesta`_, describe la arquitectura de los servicios.
 
-- Finalmente la sección 6, discute la logística y sus retos.
+- Finalmente la sección `Implementación`_, discute la logística y sus retos.
 
 Introducción
 ```````````````
@@ -228,7 +228,7 @@ comunicaciones de larga distancia (como el teléfono e Internet), reduce la
 necesidad de viajar para unir a la gente.
 
 Todo esto se puede realizar por medio del protocolo de iniciación de sesión
-(SIP). 
+(SIP).
 
 Gestión de contactos
 ------------------------
@@ -338,8 +338,8 @@ contactos.
 Arquitectura propuesta
 `````````````````````````
 
-Introducción
-----------------
+Introducción a la propuesta
+---------------------------
 
 Para poder manejar las diferentes entidades de manera descentralizada pero con
 total interoperabilidad, se requiere tener una Arquitectura orientada a
@@ -374,6 +374,11 @@ Diagrama de servicios
 Diagrama de Centro de Datos
 ---------------------------
 
+Como se puede observar en el diagrama, se tiene un centro de datos principal, y
+este contiene a las instituciones, pero se permite que las instituciones que
+puedan mantener la infraestructura y el personal, tengan sus propios centro de
+datos.
+
 :imagentex:`Generados/diagramaCentroDeDatos.tex`
 
 
@@ -397,6 +402,11 @@ Correo Electrónico, celular y cargo. Esto no quita la opción de que las
 instituciones que no desean tener los equipos dedicados para este fin, puedan
 usar servicios de otra institución, pero sin delegar esta obligación de mantener
 actualizado el directorio.
+
+Para tener un nombre de usuario dentro un dominio general, como gob.bo, se
+requiere implementar un sistema donde cada empleado gubernamental debe escoger
+su nombre, y si este ya alguien lo eligió antes, debe escoger otro. De manera
+similar a como ocurre con servicios de correo electrónico en Internet.
 
 Cómo alternativas de herramientas para este servicio, podemos pensar en utilizar
 
@@ -422,8 +432,8 @@ digital descentralizado, con el que un usuario puede identificarse en una
 página web a través de una URL (o un XRI en la versión actual) y puede ser
 verificado por cualquier servidor que soporte el protocolo.
 
-Servicios
--------------
+Servicios a implementar
+-----------------------
 
 Correo electrónico
 ~~~~~~~~~~~~~~~~~~~~~~~~
@@ -514,6 +524,21 @@ Esta herramienta requiere un proceso de instalación extenso y poco
 mantenimiento, por tanto el personal para este, no necesariamente debe ser
 especializado
 
+SyncML
+'''''''
+
+Es un protocolo de la familia de XML, usado para proveer sincronización remota
+para dispositivos móviles. Está integrado en muchos dispositivos móviles, como
+teléfonos móviles o PDAs.
+
+SyncML es una herramienta multiplataforma que permite el intercambio y la
+sincronización de datos a través de redes remotas, lo que quiere decir que ya no
+tendrá que estar cerca de su ordenador para actualizar su agenda o su guía.
+
+También sirve para hacer copias de seguridad de la agenda del móvil.
+
+
+
 Aplicaciones clientes
 -------------------------
 
@@ -537,7 +562,9 @@ Entre los mas estables y recomendables se puede recomendar Pidgin.
 Para entorno móvil las opciones son mas limitadas, debido sobre todo a la amigabilidad
 de las interfaces y la estabilidad del software.
 
-Una opción estable y relativamente amigable es Conversations. Otra opcion es Xabber Dev. 
+Una opción estable y relativamente amigable es Conversations. Otra opcion es Xabber Dev.
+
+Con esto se reemplaza al chat de google, whatsapp, skype y muchos otros.
 
 Llamadas telefónicas
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -545,7 +572,9 @@ Llamadas telefónicas
 Para realizar llamadas SIP desde entorno desktop existen las aplicaciones Linphone y Ekiga.
 También existe Jitsi para protocolo SIP y también XMPP.
 
-Existe también la versión Linphone para móvil. Otra solución móvil es Lumicall.  
+Existe también la versión Linphone para móvil. Otra solución móvil es Lumicall.
+
+Con esto se reemplaza al servicio de de llamadas de whatsapp, skype y otros.
 
 Vídeo telefonía
 ~~~~~~~~~~~~~~~~~~~~
@@ -556,10 +585,13 @@ sobre protocolo SIP y XMPP.
 
 La versión móvil de Linphone también permite vídeo llamadas. 
 
+Con esto se reemplaza al servicio de de vídeo llamadas de whatsapp, skype y otros.
+
 Tiempos
 -----------
 
 La implementación del servicio de comunicación estatal esta planificada por fases.
+
 La primera fase consiste en la activación de los servicios para los funcionarios
 internos de AGETIC. Es una fase de test en la cual se pone particular enfoque
 en las características de escalabilidad y usabilidad del servicio.
@@ -574,6 +606,16 @@ usabilidad muy alto.
 La cuarta fase, que es tentativa, incluye la posibilidad de abrir el servicio a
 la población en general. El objetivo de esta fase es de mejorar la comunicación
 entre funcionario publico y ciudadano.
+
+
+======  ===================  ====================
+ Fase    Duración en Meses    Personal Requerido
+======  ===================  ====================
+ 1          3                    2
+ 2          6                    5
+ 3          3                   12
+ 4          6                   18
+======  ===================  ====================
 
 Conclusiones
 ----------------
